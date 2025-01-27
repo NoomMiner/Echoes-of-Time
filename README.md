@@ -1,2 +1,2 @@
 # Echoes-of-Time
-A puzzle game 
+An escape room adventure puzzle game
