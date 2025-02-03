@@ -4,7 +4,7 @@ Many puzzle enthusiasts are bored and stressed by work and other obligations, an
 ## Value proposition
 **We help casual gamers and puzzle enthusiasts have fun and train their puzzle-solving abilities with a short artistic and story based puzzle game exploring the themes of time and unforeseen consequences.**
 ## Customer Segements
-- Casual gamers and puzzle enthusiasts
+Casual gamers and puzzle enthusiasts
 # 3. Interviews summary
 ## Interview 1:
 - Skyler interviewed Leah on February 1st.
@@ -22,8 +22,8 @@ Many puzzle enthusiasts are bored and stressed by work and other obligations, an
 Must have / **Nice to have** / Don't Care
 
 ## Interview 2:
--Wil interviewed Mason on February 1st
--Mason is a student who loves to play a variety of games, from adventure and story focused to open world and sandbox (Minecraft) 
+- Wil interviewed Mason on February 1st
+- Mason is a student who loves to play a variety of games, from adventure and story focused to open world and sandbox (Minecraft) 
 ### Key insights:
 - Likes the concept of Echoes of Time, believes it has potential 
 - Enjoys playing the part of a character in games and not fully act as themself 
