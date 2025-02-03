@@ -82,6 +82,6 @@ Must have / **Nice to have** / Don't Care
 Must have / **Nice to have** / Don't Care
 # 4. Final value proposition and consumer segments
 ## Revised Value Proposition:
-We help people who like adventure games and gamers who like to explore different kinds of games explore a virtual world and exercise their puzzle-solving abilities with a short artistic and story based puzzle game exploring themes of time and unforeseen consequences.
+**We help people who like adventure games and gamers who like to explore different kinds of games explore a virtual world and exercise their puzzle-solving abilities with a short artistic and story based puzzle game exploring themes of time and unforeseen consequences.**
 ## Revised Customer Segment
 Adventure gamers and those who enjoy playing a variety of games.
