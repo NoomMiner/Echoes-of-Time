@@ -54,7 +54,12 @@ Make a numbered list of non-functional requirements that are important for your 
 1. Portable \- important because ….  
    1. Playable on Windows  
    2. Playable on Linux (Ubuntu/Linux Mint)  
-2. 
+2. Maintainability - important because we want to be able to expand the game to implement new features while fixing existing non-working features.
+    1. Create new updates
+    2. Fix any reported bugs
+3. Usability - important because we want our game to have easy to learn controls that provide a smooth experience with playing the game.
+    1. Intuitive controls and user interface
+    2. Clear visual feedback for actions
 
 ### 5\. Minimum Viable Product
 
