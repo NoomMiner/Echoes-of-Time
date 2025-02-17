@@ -51,6 +51,9 @@ What will be your MVP? Which features are you going to validate? How?
 *Grading criteria (2 points):* Describe what would be considered the Minimal Viable Product and how it will be tested (e.g., via implementation, prototyping, Wizard of Woz, etc.). Make clear what you are going to validate. The MVP should be coherent with the previous sections.
 
 ### 6\. Use cases
+#### Use Case Diagram
+![Use Case Diagram](Use_Case_Diagram.png)
+
 
 #### Use Case \#1:
 ##### Solve Puzzle
@@ -65,6 +68,8 @@ What will be your MVP? Which features are you going to validate? How?
 - Player discovers solution
 - Player implements solution
 - System unlocks door
+##### Interface Sketch
+![Use Case 1 Sketch](UI_Example-1.drawio.png)
 #### Use Case \#2:
 ##### Use Time Travel Mechanic
 - Actor: Player
@@ -79,6 +84,8 @@ What will be your MVP? Which features are you going to validate? How?
 - Player fast forwards time to clear an obstruction
 - Game loads "present" level screen
 - Player clears said barrier
+##### Interface Sketch
+![Use Case 2 Sketch](UI_Example-2.drawio.png)
 #### Use Case \#3:
 ##### Influence Ecosystem
 - Actor: Player
@@ -89,6 +96,8 @@ What will be your MVP? Which features are you going to validate? How?
 - Player, to escape dungeon, deactivates rune
 - Player is able to leave dungeon
 - System updates environment (e.g. forest is dead)
+##### Interface Sketch
+![Use Case 3 Sketch](UI_Example-3.drawio.png)
 #### Use Case \#4:
 ##### Progress Through Story
 - Actor: Player
@@ -99,6 +108,8 @@ What will be your MVP? Which features are you going to validate? How?
 - Player Solves a puzzle
 - Game gives feedback (audio/visual)
 - Player learns more about game world
+##### Interface Sketch
+![Use Case 4 Sketch](UI_Example-4.drawio.png)
 ### 7\. User stories
 
 Write two user stories for each member of the group. They can be related to the same features described in the use cases or to different ones. Adopt the following format: "As a \<ROLE\>, I want \<SOMETHING\> so that \<GOAL\>." 
