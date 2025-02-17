@@ -51,16 +51,10 @@ What will be your MVP? Which features are you going to validate? How?
 *Grading criteria (2 points):* Describe what would be considered the Minimal Viable Product and how it will be tested (e.g., via implementation, prototyping, Wizard of Woz, etc.). Make clear what you are going to validate. The MVP should be coherent with the previous sections.
 
 ### 6\. Use cases
+#### Use Case Diagram
+![Use Case Diagram](Use_Case_Diagram.png)
 
-Include a UML use case diagram for your project. There are many drawing tools that you can use.  I recommend the one we used in class, draw.io.
 
-Grading criteria (5 points): Follow correctly the UML specification. The actors should be coherent with what was listed in sections 1 and 2\. The use case diagram should be coherent with the list of requirements (section 3). The level of granularity of each use case should be adequate. The use cases should be adequately named.
-
-Present one complete use case description (textual) for each member of the group. Therefore, if the group has 4 members, 4 use case descriptions are necessary. As the grading will not be individual, the group is responsible for keeping the quality and consistency of the whole document – avoid just splitting the work. Choose the most important use cases to describe. Follow the template provided in the slides.
-
-After each use case description, add a sketch of the corresponding user interface. This will be a good opportunity to start thinking about usability. 
-
-*Grading criteria (8 points):* Follow the template to describe the use cases. Present an interface sketch for each use case. Describe the use case as a dialog between the user and the system. Do not use UI language in the description of the use case.
 #### Use Case \#1:
 ##### Solve Puzzle
 - Actor: Player
@@ -74,6 +68,8 @@ After each use case description, add a sketch of the corresponding user interfac
 - Player discovers solution
 - Player implements solution
 - System unlocks door
+##### Interface Sketch
+![Use Case 1 Sketch](UI_Example-1.drawio.png)
 #### Use Case \#2:
 ##### Use Time Travel Mechanic
 - Actor: Player
@@ -88,6 +84,8 @@ After each use case description, add a sketch of the corresponding user interfac
 - Player fast forwards time to clear an obstruction
 - Game loads "present" level screen
 - Player clears said barrier
+##### Interface Sketch
+![Use Case 2 Sketch](UI_Example-2.drawio.png)
 #### Use Case \#3:
 ##### Influence Ecosystem
 - Actor: Player
@@ -98,6 +96,8 @@ After each use case description, add a sketch of the corresponding user interfac
 - Player, to escape dungeon, deactivates rune
 - Player is able to leave dungeon
 - System updates environment (e.g. forest is dead)
+##### Interface Sketch
+![Use Case 3 Sketch](UI_Example-3.drawio.png)
 #### Use Case \#4:
 ##### Progress Through Story
 - Actor: Player
@@ -108,6 +108,8 @@ After each use case description, add a sketch of the corresponding user interfac
 - Player Solves a puzzle
 - Game gives feedback (audio/visual)
 - Player learns more about game world
+##### Interface Sketch
+![Use Case 4 Sketch](UI_Example-4.drawio.png)
 ### 7\. User stories
 
 Write two user stories for each member of the group. They can be related to the same features described in the use cases or to different ones. Adopt the following format: "As a \<ROLE\>, I want \<SOMETHING\> so that \<GOAL\>." 
