@@ -71,7 +71,7 @@ Online playable demo with a focus on interactive and shifting story. We are goin
 - Trigger: Player's encounters a locked door
 - Preconditions: Player is in a puzzle scenario
 - Postcondition: Player moves past door
-##### Success Senario:
+##### Success Scenario:
 - System displays a locked door
 - Player interacts with puzzle elements
 - System responds (e.g. gears turn)
@@ -86,11 +86,11 @@ Online playable demo with a focus on interactive and shifting story. We are goin
 - Trigger: Player engages time altering mechanic
 - Preconditions: Player has unlocked time altering
 - Postconditions: Game state changes
-##### Success Senario:
+##### Success Scenario:
 - Player rewinds time to clear an obstruction
 - Game loads "past" level screen
 - Player clears said barrier
-##### Alternate Senario \#1:
+##### Alternate Scenario \#1:
 - Player fast forwards time to clear an obstruction
 - Game loads "present" level screen
 - Player clears said barrier
@@ -102,7 +102,7 @@ Online playable demo with a focus on interactive and shifting story. We are goin
 - Trigger: Player escapes dungeon
 - Precondition: Player has solved puzzles required to exit
 - Postconditon: Ecosystem is significantly altered
-##### Success Senario
+##### Success Scenario
 - Player, to escape dungeon, deactivates rune
 - Player is able to leave dungeon
 - System updates environment (e.g. forest is dead)
@@ -114,7 +114,7 @@ Online playable demo with a focus on interactive and shifting story. We are goin
 - Trigger: Player completes checkpoint puzzle
 - Preconditions: Player has completed all previous checkpoints
 - Postcondition: New Scene or dialogue is loaded
-##### Success Senario
+##### Success Scenario
 - Player Solves a puzzle
 - Game gives feedback (audio/visual)
 - Player learns more about game world
