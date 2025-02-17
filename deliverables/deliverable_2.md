@@ -86,6 +86,16 @@ After each use case description, add a sketch of the corresponding user interfac
 - Player fast forwards time to clear an obstruction
 - Game loads "present" level screen
 - Player clears said barrier
+#### Use Case \#3:
+##### Interact with Game Environment
+- Actor: Player
+- Trigger: Current player position and input would modify enviroment
+- Precondition: Player is in game
+- Postconditon: Player action is reflected in the environment
+##### Success Senario
+- Player approaches moveable boulder
+- Player provides appropriate input (moving into the boulder)
+- Boulder moves
 ### 7\. User stories
 
 Write two user stories for each member of the group. They can be related to the same features described in the use cases or to different ones. Adopt the following format: "As a \<ROLE\>, I want \<SOMETHING\> so that \<GOAL\>." 
