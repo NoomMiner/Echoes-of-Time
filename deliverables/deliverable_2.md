@@ -29,12 +29,19 @@ For adventure gamers and people who enjoy a variety of games who attain fulfillm
 ### 3\. Functional requirements (features)
 
 Changing of locations/rooms in game
+
 Saving changes in each location and updating other rooms
+
 Interactivity with items and assets in each room 
+
 Moveable player character in a 2D space
+
 Player-viewable rooms
+
 Complete, compelling story
+
 Interesting visual art
+
 Fitting music/soundtrack
 
 ### 4\. Non-functional requirements
