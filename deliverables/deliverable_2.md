@@ -28,9 +28,21 @@ For adventure gamers and people who enjoy a variety of games who attain fulfillm
 
 ### 3\. Functional requirements (features)
 
-Make a numbered list of requirements for your software. Just self-explanatory titles are enough at this point. Remember that requirements should deliver the value proposition and they must be consistent with the interviews you performed for the previous deliverable. You can talk again to your clients to help define the requirements. While writing the requirements, focus on the capabilities needed and not on how they should be implemented.
+1. Changing of locations/rooms in game
 
-*Grading criteria (2 points):* The list should be comprehensive (remember that you are not expected to implement all the requirements by the end of the course but you should list them). Follow the same pattern to describe all the requirements. The list of requirements should be coherent with the previous sections.
+2. Saving changes in each location and updating other rooms
+
+3. Interactivity with items and assets in each room 
+
+4. Moveable player character in a 2D space
+
+5. Player-viewable rooms
+
+6. Complete, compelling story
+
+7. Interesting visual art
+
+8. Fitting music/soundtrack
 
 ### 4\. Non-functional requirements
 
@@ -46,9 +58,7 @@ Make a numbered list of non-functional requirements that are important for your 
 
 ### 5\. Minimum Viable Product
 
-What will be your MVP? Which features are you going to validate? How?
-
-*Grading criteria (2 points):* Describe what would be considered the Minimal Viable Product and how it will be tested (e.g., via implementation, prototyping, Wizard of Woz, etc.). Make clear what you are going to validate. The MVP should be coherent with the previous sections.
+Online playable demo with a focus on interactive and shifting story. We are going to validate that the game has a story that grips the player’s attention, alongside having working environments that change based on player actions. We also want interactable environments that have consequences. 
 
 ### 6\. Use cases
 #### Use Case Diagram
