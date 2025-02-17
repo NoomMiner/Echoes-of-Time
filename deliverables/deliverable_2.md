@@ -64,20 +64,22 @@ After each use case description, add a sketch of the corresponding user interfac
 #### Use Case \#1:
 ##### Solve Puzzle
 - Actor: Player
-- Trigger: Player's progression is halted
-- Preconditions: Player is in game
-- Postcondition: Player progesses
+- Trigger: Player's encounters a locked door
+- Preconditions: Player is in a puzzle scenario
+- Postcondition: Player moves past door
 ##### Success Senario:
-- Player's progress is stopped (e.g locked door)
+- System displays a locked door
 - Player interacts with puzzle elements
+- System responds (e.g. gears turn)
 - Player discovers solution
 - Player implements solution
+- System unlocks door
 #### Use Case \#2:
 ##### Use Time Travel Mechanic
 - Actor: Player
-- Trigger: Player engages in a puzzle
-- Preconditions: Player is solving a puzzle
-- Postconditions: Player makes progress/Understands something new
+- Trigger: Player engages time altering mechanic
+- Preconditions: Player has unlocked time altering
+- Postconditions: Game state changes
 ##### Success Senario:
 - Player rewinds time to clear an obstruction
 - Game loads "past" level screen
@@ -87,15 +89,25 @@ After each use case description, add a sketch of the corresponding user interfac
 - Game loads "present" level screen
 - Player clears said barrier
 #### Use Case \#3:
-##### Interact with Game Environment
+##### Influence Ecosystem
 - Actor: Player
-- Trigger: Current player position and input would modify enviroment
-- Precondition: Player is in game
-- Postconditon: Player action is reflected in the environment
+- Trigger: Player escapes dungeon
+- Precondition: Player has solved puzzles required to exit
+- Postconditon: Ecosystem is significantly altered
 ##### Success Senario
-- Player approaches moveable boulder
-- Player provides appropriate input (moving into the boulder)
-- Boulder moves
+- Player, to escape dungeon, deactivates rune
+- Player is able to leave dungeon
+- System updates environment (e.g. forest is dead)
+#### Use Case \#4:
+##### Progress Through Story
+- Actor: Player
+- Trigger: Player completes checkpoint puzzle
+- Preconditions: Player has completed all previous checkpoints
+- Postcondition: New Scene or dialogue is loaded
+##### Success Senario
+- Player Solves a puzzle
+- Game gives feedback (audio/visual)
+- Player learns more about game world
 ### 7\. User stories
 
 Write two user stories for each member of the group. They can be related to the same features described in the use cases or to different ones. Adopt the following format: "As a \<ROLE\>, I want \<SOMETHING\> so that \<GOAL\>." 
