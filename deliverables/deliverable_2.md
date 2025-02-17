@@ -155,9 +155,8 @@ Priority: 7/10		Hours Estimate: 20
 
 ### 8\. Issue Tracker
 
-The user stories should be registered in your GitHub issue tracker. Include here the link for your issue tracker and a screenshot of what you did. 
-
-*Grading criteria (1 point):* Provide the URL and screenshot of the issue tracker. The user stories should be registered there.
+URL: https://github.com/NoomMiner/Echoes-of-Time/issues
+![image](https://github.com/user-attachments/assets/645a6c4c-e46c-4437-af22-30201d49a93d)
 
 ### Format
 
