@@ -72,6 +72,20 @@ After each use case description, add a sketch of the corresponding user interfac
 - Player interacts with puzzle elements
 - Player discovers solution
 - Player implements solution
+#### Use Case \#2:
+##### Use Time Travel Mechanic
+- Actor: Player
+- Trigger: Player engages in a puzzle
+- Preconditions: Player is solving a puzzle
+- Postconditions: Player makes progress/Understands something new
+##### Success Senario:
+- Player rewinds time to clear an obstruction
+- Game loads "past" level screen
+- Player clears said barrier
+##### Alternate Senario \#1:
+- Player fast forwards time to clear an obstruction
+- Game loads "present" level screen
+- Player clears said barrier
 ### 7\. User stories
 
 Write two user stories for each member of the group. They can be related to the same features described in the use cases or to different ones. Adopt the following format: "As a \<ROLE\>, I want \<SOMETHING\> so that \<GOAL\>." 
