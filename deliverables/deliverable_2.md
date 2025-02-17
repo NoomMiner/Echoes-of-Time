@@ -8,8 +8,6 @@ The problem of dissatisfaction with the stress and tedium of everyday life affec
 
 For adventure gamers and people who enjoy a variety of games who attain fulfillment in life through vicariously experiencing virtual stories, The Echoes of Time is an adventure game that gives them a brief escape from reality into a new virtual world; unlike other adventure games, which avid adventure game consumers may have played before, our product is a story about time which they have yet to experience.
 
-#### **Value proposition and customer segment**
-
 **Value Proposition:** Echoes of Time is an adventure game that helps gamers who like puzzles and storytelling relax and exercise their puzzle-solving skills, exploring themes of time and unforeseen consequences alongside modern issues like environmentalism.
 
 **Customer Segment:** Gamers who enjoy adventure games and storytelling
@@ -45,11 +43,6 @@ For adventure gamers and people who enjoy a variety of games who attain fulfillm
 8. Fitting music/soundtrack
 
 ### 4\. Non-functional requirements
-
-Make a numbered list of non-functional requirements that are important for your software. Explain their importance. Follow the terminology of ISO/IEC 25010:2011. For each non-functional requirement, give an objective goal/measurement in order to provide verifiability for the requirement. You can find more details at the following URL:  
-[https://ieeexplore.ieee.org/document/8559686 Links to an external site.](https://ieeexplore.ieee.org/document/8559686)
-
-*Grading criteria (2 points):* Follow the ISO-IEC terminology, explain why they are important, provide verifiability criteria for each requirement.
 
 1. Portable \- important because ….  
    1. Playable on Windows  
@@ -122,47 +115,31 @@ Online playable demo with a focus on interactive and shifting story. We are goin
 ![Use Case 4 Sketch](UI_Example-4.drawio.png)
 ### 7\. User stories
 
-Write two user stories for each member of the group. They can be related to the same features described in the use cases or to different ones. Adopt the following format: "As a \<ROLE\>, I want \<SOMETHING\> so that \<GOAL\>." 
-
-Establish a priority level for each user story and estimate how many hours each one will demand using the planning poker approach. 
-
-(1) As an adventure enthusiast, I want multiple possible endings so that I feel like I have agency in the story.
-
-Priority: 7/10		Hours Estimate: 20
+(1) As an adventure enthusiast, I want multiple possible endings so that I feel like I have agency in the story.  
+	Priority: 7/10	&emsp;&emsp;  Hours Estimate: 20
 
 (2) As a puzzle enjoyer, I want challenging puzzles so that I feel accomplished after playing.  
-	Priority: 4/10		Hours Estimate: 15
+	Priority: 4/10	&emsp;&emsp;  Hours Estimate: 15
 
 (3) As a casual gamer, I want simple, clear mechanics so that I can play without frustration.  
-	Priority: 8/10		Hours Estimate: 10
+	Priority: 8/10	&emsp;&emsp;  Hours Estimate: 10
 
 (4) As a cybersecurity nerd, I want open-source software so that I can personally confirm the privacy and security of the game.  
-	Priority: 6/10		Hours Estimate: 2
+	Priority: 6/10	&emsp;&emsp;  Hours Estimate: 2
 
-(5) As someone who likes art, I want stylistic graphics so that I can feel more immersed in the story.
-	Priority: 9/10		Hours Estimate: 30
+(5) As someone who likes art, I want stylistic graphics so that I can feel more immersed in the story.  
+	Priority: 9/10	&emsp;&emsp;  Hours Estimate: 30
 
-(6) As someone who enjoys games with engaging world building, I want a deep story that takes place in an interesting world so I feel immersed when playing.
-	Priority: 6/10		Hours Estimate: 20
+(6) As someone who enjoys games with engaging world building, I want a deep story that takes place in an interesting world so I feel immersed when playing.  
+	Priority: 6/10	&emsp;&emsp;  Hours Estimate: 20
 
-(7) As someone who is interested in video game design, I want interesting and unique mechanics that interact in novel ways so I am engaged by the game.
-	Priority: 3/10		Hours Estimate: 30
+(7) As someone who is interested in video game design, I want interesting and unique mechanics that interact in novel ways so I am engaged by the game.  
+	Priority: 3/10	&emsp;&emsp;  Hours Estimate: 30
  
-(8) As a soundtrack enjoyer, I want an original soundtrack for the game so that it feels unique.
-	Priority: 2/10		Hours Estimate: 15
-
-*Grading criteria (6 points):* Use the provided format. The user stories should be in an adequate level of granularity (not too broad nor too specific). Provide the priority and estimation for each user story.
+(8) As a soundtrack enjoyer, I want an original soundtrack for the game so that it feels unique.  
+	Priority: 2/10	&emsp;&emsp;  Hours Estimate: 15
 
 ### 8\. Issue Tracker
 
 URL: https://github.com/NoomMiner/Echoes-of-Time/issues
 ![image](https://github.com/user-attachments/assets/645a6c4c-e46c-4437-af22-30201d49a93d)
-
-### Format
-
-Your document should be composed in Markdown and hosted on GitHub but you should also turn in a PDF copy to be graded.  See also [Converting GitHub Markdown to PDF](https://canvas.nau.edu/courses/35867/pages/reading-converting-github-markdown-to-pdf).  Sections should use appropriate markdown and figures should be included if needed or appropriate.
-
-### Teamwork
-
-I will review your repository for commits.  If I find that there are individual members of the team that do not significantly contribute (number of commits, meaningful contributions to each section, etc.), I will deduct points from that individual's grade proportionally.  Also note that even documentation should demonstrate proper pull request etiquette and best practices\!
-
