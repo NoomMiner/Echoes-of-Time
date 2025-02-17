@@ -46,9 +46,7 @@ Make a numbered list of non-functional requirements that are important for your 
 
 ### 5\. Minimum Viable Product
 
-What will be your MVP? Which features are you going to validate? How?
-
-*Grading criteria (2 points):* Describe what would be considered the Minimal Viable Product and how it will be tested (e.g., via implementation, prototyping, Wizard of Woz, etc.). Make clear what you are going to validate. The MVP should be coherent with the previous sections.
+Online playable demo with a focus on interactive and shifting story. We are going to validate that the game has a story that grips the player’s attention, alongside having working environments that change based on player actions. We also want interactable environments that have consequences. 
 
 ### 6\. Use cases
 #### Use Case Diagram
