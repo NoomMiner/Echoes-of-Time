@@ -28,9 +28,14 @@ For adventure gamers and people who enjoy a variety of games who attain fulfillm
 
 ### 3\. Functional requirements (features)
 
-Make a numbered list of requirements for your software. Just self-explanatory titles are enough at this point. Remember that requirements should deliver the value proposition and they must be consistent with the interviews you performed for the previous deliverable. You can talk again to your clients to help define the requirements. While writing the requirements, focus on the capabilities needed and not on how they should be implemented.
-
-*Grading criteria (2 points):* The list should be comprehensive (remember that you are not expected to implement all the requirements by the end of the course but you should list them). Follow the same pattern to describe all the requirements. The list of requirements should be coherent with the previous sections.
+Changing of locations/rooms in game
+Saving changes in each location and updating other rooms
+Interactivity with items and assets in each room 
+Moveable player character in a 2D space
+Player-viewable rooms
+Complete, compelling story
+Interesting visual art
+Fitting music/soundtrack
 
 ### 4\. Non-functional requirements
 
