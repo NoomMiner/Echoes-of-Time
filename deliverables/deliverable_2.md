@@ -52,15 +52,6 @@ What will be your MVP? Which features are you going to validate? How?
 
 ### 6\. Use cases
 
-Include a UML use case diagram for your project. There are many drawing tools that you can use.  I recommend the one we used in class, draw.io.
-
-Grading criteria (5 points): Follow correctly the UML specification. The actors should be coherent with what was listed in sections 1 and 2\. The use case diagram should be coherent with the list of requirements (section 3). The level of granularity of each use case should be adequate. The use cases should be adequately named.
-
-Present one complete use case description (textual) for each member of the group. Therefore, if the group has 4 members, 4 use case descriptions are necessary. As the grading will not be individual, the group is responsible for keeping the quality and consistency of the whole document – avoid just splitting the work. Choose the most important use cases to describe. Follow the template provided in the slides.
-
-After each use case description, add a sketch of the corresponding user interface. This will be a good opportunity to start thinking about usability. 
-
-*Grading criteria (8 points):* Follow the template to describe the use cases. Present an interface sketch for each use case. Describe the use case as a dialog between the user and the system. Do not use UI language in the description of the use case.
 #### Use Case \#1:
 ##### Solve Puzzle
 - Actor: Player
