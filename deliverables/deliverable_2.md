@@ -121,7 +121,7 @@ Establish a priority level for each user story and estimate how many hours each 
 Priority: 7/10		Hours Estimate: 20
 
 (2) As a puzzle enjoyer, I want challenging puzzles so that I feel accomplished after playing.  
-	Priority: 4/10		Hours Estimate: 5
+	Priority: 4/10		Hours Estimate: 15
 
 (3) As a casual gamer, I want simple, clear mechanics so that I can play without frustration.  
 	Priority: 8/10		Hours Estimate: 10
@@ -130,14 +130,16 @@ Priority: 7/10		Hours Estimate: 20
 	Priority: 6/10		Hours Estimate: 2
 
 (5) As someone who likes art, I want stylistic graphics so that I can feel more immersed in the story.
+	Priority: 9/10		Hours Estimate: 30
 
-	Priority: 7/10		Hours Estimate: ??
+(6) As someone who enjoys games with engaging world building, I want a deep story that takes place in an interesting world so I feel immersed when playing.
+	Priority: 6/10		Hours Estimate: 20
 
-(6) 
-
-(7) 
-
-(8) 
+(7) As someone who is interested in video game design, I want interesting and unique mechanics that interact in novel ways so I am engaged by the game.
+	Priority: 3/10		Hours Estimate: 30
+ 
+(8) As a soundtrack enjoyer, I want an original soundtrack for the game so that it feels unique.
+	Priority: 2/10		Hours Estimate: 15
 
 *Grading criteria (6 points):* Use the provided format. The user stories should be in an adequate level of granularity (not too broad nor too specific). Provide the priority and estimation for each user story.
 
