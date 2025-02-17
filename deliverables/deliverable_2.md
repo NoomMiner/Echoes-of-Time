@@ -61,7 +61,17 @@ Present one complete use case description (textual) for each member of the group
 After each use case description, add a sketch of the corresponding user interface. This will be a good opportunity to start thinking about usability. 
 
 *Grading criteria (8 points):* Follow the template to describe the use cases. Present an interface sketch for each use case. Describe the use case as a dialog between the user and the system. Do not use UI language in the description of the use case.
-
+#### Use Case \#1:
+##### Solve Puzzle
+- Actor: Player
+- Trigger: Player's progression is halted
+- Preconditions: Player is in game
+- Postcondition: Player progesses
+##### Success Senario:
+- Player's progress is stopped (e.g locked door)
+- Player interacts with puzzle elements
+- Player discovers solution
+- Player implements solution
 ### 7\. User stories
 
 Write two user stories for each member of the group. They can be related to the same features described in the use cases or to different ones. Adopt the following format: "As a \<ROLE\>, I want \<SOMETHING\> so that \<GOAL\>." 
