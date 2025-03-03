@@ -6,7 +6,7 @@ Echoes of Time aims to entertain gamers who enjoy casual adventure games, puzzle
 
 We will incorporate various aspects of this world so as many people can enjoy it as possible. We will keep it portable, so any player can play the game at any point. We intend to maintain and update the game as it develops. We will design controls that remain smooth regardless of the device used to play. 
 
-The Entity is the parent of **Player**, **NPC**, **Door**, and **Lever**. The **Player** is associated with one *Inventory* and **Game Manager**. **NPC** is connected to **Dialogue Manager**. **Game Manager** is connected to **Scene**. **Scene** is connected to **Level Manager**. 
+The **Entity** is the parent of **Player**, **NPC**, **Door**, and **Lever**. The **Player** is associated with one *Inventory* and **Game Manager**. **NPC** is connected to **Dialogue Manager**. **Game Manager** is connected to **Scene**. **Scene** is connected to **Level Manager**. 
 
 
 # Model
