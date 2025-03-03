@@ -9,4 +9,4 @@ We hope to incorporate various aspects of this world so as many people can enjoy
 
 
 # Model
-INSERT: model PNG
+![UML Diagram](UML_Class_D3.png)
