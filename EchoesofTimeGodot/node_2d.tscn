@@ -428,6 +428,12 @@ parameters/Walk/blend_position = Vector2(0, 0)
 position = Vector2(0, 8)
 shape = SubResource("CapsuleShape2D_14rdl")
 
+[node name="Area2D" type="Area2D" parent="CharacterBody2D"]
+position = Vector2(0, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/Area2D"]
+shape = SubResource("CapsuleShape2D_14rdl")
+
 [node name="Node2D" type="Node2D" parent="."]
 
 [node name="Clock" parent="." instance=ExtResource("4_iio4l")]
