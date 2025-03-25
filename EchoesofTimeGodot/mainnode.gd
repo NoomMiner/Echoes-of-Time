@@ -14,6 +14,7 @@ func _input(ev):
 			# do some kind of animation
 			state = 2
 			get_child(2).assoText = get_node("Door/usekeyprompt")
+			get_node("Door/doorlocked").visible = false
 			get_node("Clock/RichTextLabel").visible = false
 
 
