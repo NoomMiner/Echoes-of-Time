@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://i6m3fnwjnblx"]
 
 [ext_resource type="Texture2D" uid="uid://dfv16id5da35f" path="res://room.png" id="1_ymuvo"]
-[ext_resource type="PackedScene" uid="uid://besgwy1ytubnd" path="res://node_2d.tscn" id="2_dr5he"]
+[ext_resource type="PackedScene" uid="uid://besgwy1ytubnd" path="res://player(1).tscn" id="2_dr5he"]
 [ext_resource type="PackedScene" uid="uid://b73prsxlvq88t" path="res://key.tscn" id="4_rk4mg"]
 
 [node name="Game" type="Node2D" groups=["player"]]
