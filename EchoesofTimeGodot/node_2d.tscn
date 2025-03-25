@@ -1,9 +1,10 @@
-[gd_scene load_steps=33 format=4 uid="uid://besgwy1ytubnd"]
+[gd_scene load_steps=34 format=4 uid="uid://besgwy1ytubnd"]
 
 [ext_resource type="Texture2D" uid="uid://c4l0dmnysvb7b" path="res://tiles.png" id="1_7dapk"]
 [ext_resource type="Texture2D" uid="uid://hgi741l6o84p" path="res://player.png" id="2_5s8xy"]
 [ext_resource type="Script" path="res://character_body_2d.gd" id="2_7elwf"]
 [ext_resource type="PackedScene" uid="uid://b3c7jxuqmyv4k" path="res://clock.tscn" id="4_iio4l"]
+[ext_resource type="Script" path="res://clock.gd" id="5_4mc8w"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vs8ys"]
 texture = ExtResource("1_7dapk")
@@ -401,6 +402,7 @@ tile_set = SubResource("TileSet_8sn6x")
 collision_enabled = false
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." node_paths=PackedStringArray("animation_tree")]
+z_index = 1
 position = Vector2(137, 255)
 collision_mask = 2
 script = ExtResource("2_7elwf")
@@ -429,6 +431,7 @@ shape = SubResource("CapsuleShape2D_14rdl")
 [node name="Node2D" type="Node2D" parent="."]
 
 [node name="Clock" parent="." instance=ExtResource("4_iio4l")]
+script = ExtResource("5_4mc8w")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 collision_layer = 2
