@@ -1,0 +1,55 @@
+[gd_scene load_steps=11 format=3 uid="uid://b3c7jxuqmyv4k"]
+
+[ext_resource type="Texture2D" uid="uid://byxxsvypht5ey" path="res://ClockAnimation/pixil-frame-0-7.png" id="1_cuwp3"]
+[ext_resource type="Texture2D" uid="uid://cxvdgj2rtff36" path="res://ClockAnimation/pixil-frame-0(6).png" id="2_ovm65"]
+[ext_resource type="Texture2D" uid="uid://brsr2nyx1q7e" path="res://ClockAnimation/pixil-frame-0(5).png" id="3_5kaxt"]
+[ext_resource type="Texture2D" uid="uid://crq83vjkin0df" path="res://ClockAnimation/pixil-frame-0(4).png" id="4_gvlrd"]
+[ext_resource type="Texture2D" uid="uid://bqqj78t6x8akd" path="res://ClockAnimation/pixil-frame-0(3).png" id="5_31fvx"]
+[ext_resource type="Texture2D" uid="uid://cvjafw3pf1uce" path="res://ClockAnimation/pixil-frame-0(2).png" id="6_rbuvd"]
+[ext_resource type="Texture2D" uid="uid://ct3pr2veufevn" path="res://ClockAnimation/pixil-frame-0(1).png" id="7_815ov"]
+[ext_resource type="Texture2D" uid="uid://c8nrhfc4oqges" path="res://ClockAnimation/pixil-frame-0.png" id="8_t77bt"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_wtguo"]
+radius = 5.09902
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fjcjt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_cuwp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_ovm65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_5kaxt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_gvlrd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_31fvx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_rbuvd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_815ov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_t77bt")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Clock" type="Node2D"]
+position = Vector2(246, 169)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_wtguo")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_fjcjt")
+frame_progress = 0.306016
