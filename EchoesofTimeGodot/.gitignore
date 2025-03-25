@@ -1,0 +1,7 @@
+# Godot-specific ignores
+.godot/             # Editor settings, cache, and metadata
+.import/            # Asset import data (re-generated automatically)
+*.godot/            # Project variants (e.g., mobile/web exports)
+export_presets.cfg  # Contains export credentials/paths (sensitive!)
+export.cfg          # Legacy export configs
+*.import            # Per-resource import configs

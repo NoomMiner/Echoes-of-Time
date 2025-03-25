@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://i6m3fnwjnblx"]
+
+[ext_resource type="Texture2D" uid="uid://dfv16id5da35f" path="res://room.png" id="1_ymuvo"]
+[ext_resource type="PackedScene" uid="uid://cl5cfgyylxki4" path="res://player.tscn" id="3_igt7b"]
+[ext_resource type="PackedScene" uid="uid://b73prsxlvq88t" path="res://key.tscn" id="4_rk4mg"]
+
+[node name="Game" type="Node2D" groups=["player"]]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(319, 127)
+texture = ExtResource("1_ymuvo")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(423, 118.667)
+scale = Vector2(1.33333, 1.33333)
+zoom = Vector2(2, 2)
+
+[node name="Player" parent="." instance=ExtResource("3_igt7b")]
+position = Vector2(427, 124)
+scale = Vector2(4, 4)
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="Player"]
+position = Vector2(-0.999997, -1.33333)
+scale = Vector2(0.333333, 0.333333)
+remote_path = NodePath("../../Camera2D")
+
+[node name="Key" parent="." instance=ExtResource("4_rk4mg")]
+position = Vector2(288, 108)
