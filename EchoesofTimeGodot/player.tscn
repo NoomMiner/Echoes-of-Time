@@ -1,7 +1,6 @@
-[gd_scene load_steps=25 format=3 uid="uid://cl5cfgyylxki4"]
+[gd_scene load_steps=24 format=3 uid="uid://cl5cfgyylxki4"]
 
 [ext_resource type="Script" path="res://playermovement.gd" id="1_bmra1"]
-[ext_resource type="Texture2D" uid="uid://b0ku16xv0fw14" path="res://The Adventurer - Free/animation.png" id="2_j2vht"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_0a8lv"]
 radius = 5.09902
@@ -233,7 +232,6 @@ animation_tree = NodePath("AnimationTree")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 1
-texture = ExtResource("2_j2vht")
 hframes = 8
 vframes = 12
 frame = 25
