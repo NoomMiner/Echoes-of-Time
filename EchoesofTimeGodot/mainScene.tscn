@@ -1,10 +1,11 @@
-[gd_scene load_steps=36 format=4 uid="uid://baj8me13g3l0x"]
+[gd_scene load_steps=37 format=4 uid="uid://baj8me13g3l0x"]
 
-[ext_resource type="Texture2D" uid="uid://c4l0dmnysvb7b" path="res://tiles.png" id="1_q65qn"]
+[ext_resource type="Texture2D" uid="uid://bgjdpke6h3nc4" path="res://tiles.png" id="1_q65qn"]
 [ext_resource type="Script" path="res://character_body_2d.gd" id="2_xuux0"]
-[ext_resource type="Texture2D" uid="uid://hgi741l6o84p" path="res://player.png" id="3_nh5dk"]
+[ext_resource type="Texture2D" uid="uid://caq5xrscha5dv" path="res://player.png" id="3_nh5dk"]
 [ext_resource type="Script" path="res://camera_2d.gd" id="4_3wlfd"]
 [ext_resource type="PackedScene" uid="uid://b3c7jxuqmyv4k" path="res://clock.tscn" id="4_uvov0"]
+[ext_resource type="PackedScene" uid="uid://c00dyfx072cqf" path="res://interaction/InteractionManager.tscn" id="5_6bmfy"]
 [ext_resource type="Script" path="res://rich_text_label.gd" id="6_mfwlw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vs8ys"]
@@ -411,6 +412,9 @@ collision_mask = 2
 script = ExtResource("2_xuux0")
 animation_tree = NodePath("AnimationTree")
 
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+script = ExtResource("4_3wlfd")
+
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
 texture = ExtResource("3_nh5dk")
 hframes = 6
@@ -431,29 +435,28 @@ parameters/Walk/blend_position = Vector2(0, 0)
 position = Vector2(0, 8)
 shape = SubResource("CapsuleShape2D_14rdl")
 
-[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-script = ExtResource("4_3wlfd")
+[node name="InteractionManager" parent="CharacterBody2D" instance=ExtResource("5_6bmfy")]
 
 [node name="Node2D" type="Node2D" parent="."]
 
 [node name="Clock" parent="." instance=ExtResource("4_uvov0")]
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
+[node name="WallColliders" type="StaticBody2D" parent="."]
 collision_layer = 2
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallColliders"]
 position = Vector2(238.5, 112.25)
 shape = SubResource("RectangleShape2D_j42x0")
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="WallColliders"]
 position = Vector2(240, 399)
 shape = SubResource("RectangleShape2D_j42x0")
 
-[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="WallColliders"]
 position = Vector2(79, 255)
 shape = SubResource("RectangleShape2D_x6rpu")
 
-[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="WallColliders"]
 position = Vector2(400, 256)
 shape = SubResource("RectangleShape2D_x6rpu")
 
