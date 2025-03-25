@@ -1,0 +1,10 @@
+res://node_2d.tscn
+res://clock.tscn
+res://main.tscn
+res://key.tscn
+res://interactable.tscn
+res://interactable.gd
+res://interacting_component.gd
+res://interacting_component.tscn
+res://key.gd
+res://player.tscn

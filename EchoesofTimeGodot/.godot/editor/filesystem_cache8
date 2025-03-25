@@ -1,0 +1,42 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1742867856
+at01.ttf::FontFile::6929911956483732907::1742866635::1742866730::1::::<><>::
+bed.gd::GDScript::-1::1742866635::0::1::::<>StaticBody2D<>::
+bed.tscn::PackedScene::1999690904120814563::1742866635::0::1::::<><>::res://bed.gd<>uid://5eyddnmv2y8m::::res://Sprout Lands - Sprites - Basic pack/Objects/Basic_Furniture.png<>uid://c4rkwjsg1m0pj::::res://interaction/interaction area/interaction_area.tscn
+Center Tile.png::CompressedTexture2D::6089461364129684074::1742866635::1742866730::1::::<><>::
+character_body_2d.gd::GDScript::-1::1742866635::0::1::::<>CharacterBody2D<>::
+clock.tscn::PackedScene::4357797316656911288::1742867756::0::1::::<><>::uid://byxxsvypht5ey::::res://ClockAnimation/pixil-frame-0-7.png<>uid://cxvdgj2rtff36::::res://ClockAnimation/pixil-frame-0(6).png<>uid://brsr2nyx1q7e::::res://ClockAnimation/pixil-frame-0(5).png<>uid://crq83vjkin0df::::res://ClockAnimation/pixil-frame-0(4).png<>uid://bqqj78t6x8akd::::res://ClockAnimation/pixil-frame-0(3).png<>uid://cvjafw3pf1uce::::res://ClockAnimation/pixil-frame-0(2).png<>uid://ct3pr2veufevn::::res://ClockAnimation/pixil-frame-0(1).png<>uid://c8nrhfc4oqges::::res://ClockAnimation/pixil-frame-0.png
+Congrats Cake.png::CompressedTexture2D::4346313538724770864::1742866635::1742866730::1::::<><>::
+Corner Tile.png::CompressedTexture2D::8751686832552234460::1742866635::1742866730::1::::<><>::
+Cracked Tile 1.png::CompressedTexture2D::228235329374564604::1742866635::1742866730::1::::<><>::
+Cracked Tile 2.png::CompressedTexture2D::2519286896719929101::1742866635::1742866730::1::::<><>::
+icon.svg::CompressedTexture2D::5663143028170036830::1742866635::1742866730::1::::<><>::
+key.gd::GDScript::-1::1742866635::0::1::::<>StaticBody2D<>::
+Key.png::CompressedTexture2D::3763614406655785506::1742866635::1742866730::1::::<><>::
+key.png::CompressedTexture2D::6100176300650738236::1742866635::1742866730::1::::<><>::
+key.tscn::PackedScene::4691208352091016297::1742867756::0::1::::<><>::res://key.gd<>uid://cs58aomlylpf5::::res://key.png<>uid://c4rkwjsg1m0pj::::res://interaction/interaction area/interaction_area.tscn
+main.tscn::PackedScene::626285349333973769::1742867756::0::1::::<><>::uid://dfv16id5da35f::::res://room.png<>uid://besgwy1ytubnd::::res://node_2d.tscn<>uid://cl5cfgyylxki4::::res://player.tscn<>uid://b73prsxlvq88t::::res://key.tscn
+node_2d.tscn::PackedScene::2704739749082759569::1742867756::0::1::::<><>::uid://hgi741l6o84p::::res://player.png<>res://character_body_2d.gd
+player.png::CompressedTexture2D::504252617221548205::1742866635::1742866730::1::::<><>::
+player.tscn::PackedScene::5606980696302881597::1742866635::0::1::::<><>::res://playermovement.gd<>uid://b0ku16xv0fw14::::res://The Adventurer - Free/animation.png
+playermovement.gd::GDScript::-1::1742866635::0::1::::<>CharacterBody2D<>::
+room.png::CompressedTexture2D::7555192629716019745::1742866635::1742866730::1::::<><>::
+Small-8-Direction-Characters_by_AxulArt.png::CompressedTexture2D::9074151337557060110::1742866635::1742866730::1::::<><>::
+tiles.png::CompressedTexture2D::6832549921862666061::1742866635::1742866730::1::::<><>::
+Title Screen.png::CompressedTexture2D::4295078162487432064::1742866635::1742866730::1::::<><>::
+Uncracked Edge Tile.png::CompressedTexture2D::3744766686246206651::1742866635::1742866730::1::::<><>::
+::res://ClockAnimation/::1742866730
+pixil-frame-0(1).png::CompressedTexture2D::6165174537790388239::1742866635::1742866730::1::::<><>::
+pixil-frame-0(2).png::CompressedTexture2D::6265396611998429592::1742866635::1742866730::1::::<><>::
+pixil-frame-0(3).png::CompressedTexture2D::3543077588368800367::1742866635::1742866730::1::::<><>::
+pixil-frame-0(4).png::CompressedTexture2D::6001136533647517111::1742866635::1742866730::1::::<><>::
+pixil-frame-0(5).png::CompressedTexture2D::106407969158366852::1742866635::1742866730::1::::<><>::
+pixil-frame-0(6).png::CompressedTexture2D::6430730084855797411::1742866635::1742866730::1::::<><>::
+pixil-frame-0-7.png::CompressedTexture2D::4119863395230496256::1742866635::1742866730::1::::<><>::
+pixil-frame-0.png::CompressedTexture2D::7116955074721743538::1742866635::1742866730::1::::<><>::
+::res://interaction/::1742866635
+InteractionManager.gd::GDScript::-1::1742866635::0::1::::<>Node2D<>::
+InteractionManager.tscn::PackedScene::6579397211547487717::1742866635::0::1::::<><>::res://interaction/InteractionManager.gd<>uid://c5y5vw5ma2ffv::::res://at01.ttf
+::res://interaction/interaction area/::1742866635
+interaction_area.gd::GDScript::-1::1742866635::0::1::::InteractionArea<>Area2D<>::
+interaction_area.tscn::PackedScene::6844059212926218923::1742866635::0::1::::<><>::res://interaction/interaction area/interaction_area.gd

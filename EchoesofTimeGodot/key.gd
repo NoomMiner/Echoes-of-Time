@@ -1,4 +1,18 @@
 extends StaticBody2D
 
-@onready var interaction_area = $InteractionArea
-@onready var sprite = $Sprite2D
+@onready var interactable: Area2D = $Interactable
+@onready var sprite: Sprite2D = $Sprite2D
+
+
+func _ready() -> void:
+	interactable.interact = _on_interact
+	
+	
+	
+func _on_interact():
+	print("got key")
+	sprite.hide()
+	interactable.is_interactable = false
+	
+		
+		

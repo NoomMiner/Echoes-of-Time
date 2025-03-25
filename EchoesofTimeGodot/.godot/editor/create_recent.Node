@@ -1,0 +1,14 @@
+CollisionShape2D
+Label
+Area2D
+InteractionArea
+Polygon2D
+CollisionPolygon2D
+Node2D
+Sprite2D
+AnimationTree
+AnimationPlayer
+Control
+AnimatedSprite2D
+CharacterBody2D
+TileMapLayer
