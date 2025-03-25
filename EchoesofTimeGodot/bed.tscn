@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=3 uid="uid://3qwu8j3tpvt8"]
+
+[ext_resource type="Script" path="res://bed.gd" id="1_7wf3k"]
+[ext_resource type="Texture2D" uid="uid://5eyddnmv2y8m" path="res://Sprout Lands - Sprites - Basic pack/Objects/Basic_Furniture.png" id="2_r4583"]
+[ext_resource type="PackedScene" uid="uid://c4rkwjsg1m0pj" path="res://interaction/interaction area/interaction_area.tscn" id="3_jf1pb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j0o6g"]
+size = Vector2(20, 31)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i6i2m"]
+size = Vector2(36, 48)
+
+[node name="Bed" type="StaticBody2D" groups=["player"]]
+script = ExtResource("1_7wf3k")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_r4583")
+hframes = 9
+vframes = 4
+frame = 10
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 5.5)
+shape = SubResource("RectangleShape2D_j0o6g")
+
+[node name="InteractionArea" parent="." instance=ExtResource("3_jf1pb")]
+action_name = "Sleep"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
+shape = SubResource("RectangleShape2D_i6i2m")
+debug_color = Color(0.629, 0.515022, 0.357141, 0.42)
