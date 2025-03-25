@@ -1,9 +1,9 @@
-[gd_scene load_steps=31 format=4 uid="uid://besgwy1ytubnd"]
+[gd_scene load_steps=33 format=4 uid="uid://besgwy1ytubnd"]
 
 [ext_resource type="Texture2D" uid="uid://c4l0dmnysvb7b" path="res://tiles.png" id="1_7dapk"]
 [ext_resource type="Texture2D" uid="uid://hgi741l6o84p" path="res://player.png" id="2_5s8xy"]
 [ext_resource type="Script" path="res://character_body_2d.gd" id="2_7elwf"]
-[ext_resource type="PackedScene" path="res://clock.tscn" id="4_iio4l"]
+[ext_resource type="PackedScene" uid="uid://b3c7jxuqmyv4k" path="res://clock.tscn" id="4_iio4l"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vs8ys"]
 texture = ExtResource("1_7dapk")
@@ -148,8 +148,7 @@ texture_region_size = Vector2i(32, 32)
 
 [sub_resource type="TileSet" id="TileSet_8sn6x"]
 tile_size = Vector2i(32, 32)
-physics_layer_0/collision_layer = 1
-physics_layer_0/collision_mask = 3
+physics_layer_0/collision_layer = 2
 sources/0 = SubResource("TileSetAtlasSource_vs8ys")
 
 [sub_resource type="Animation" id="Animation_n8ret"]
@@ -388,6 +387,12 @@ states/Walk/position = Vector2(646, 91)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_14rdl"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j42x0"]
+size = Vector2(353, 32.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x6rpu"]
+size = Vector2(32, 256)
+
 [node name="Node2D" type="Node2D"]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
@@ -395,13 +400,8 @@ tile_map_data = PackedByteArray("AAADAAQAAAABAAEAAAADAAUAAAABAAEAAAADAAYAAAABAAE
 tile_set = SubResource("TileSet_8sn6x")
 collision_enabled = false
 
-[node name="TileMapLayer2" type="TileMapLayer" parent="."]
-tile_map_data = PackedByteArray("AAACAAwAAAAEAAEAAAADAAwAAAAEAAEAAAAEAAwAAAAEAAEAAAAFAAwAAAAEAAEAAAAGAAwAAAAEAAEAAAAHAAwAAAAEAAEAAAAIAAwAAAAEAAEAAAAJAAwAAAAEAAEAAAAKAAwAAAAEAAEAAAALAAwAAAAEAAEAAAAMAAMAAAAEAAEAAAAMAAQAAAAEAAEAAAAMAAUAAAAEAAEAAAAMAAYAAAAEAAEAAAAMAAcAAAABAAkAAAAMAAgAAAABAAkAAAAMAAkAAAAEAAEAAAAMAAoAAAAEAAEAAAAMAAsAAAAEAAEAAAADAAMAAAAEAAEAAAAEAAMAAAAEAAEAAAAFAAMAAAAEAAEAAAAGAAMAAAAEAAEAAAAHAAMAAAAEAAEAAAAIAAMAAAAEAAEAAAAJAAMAAAAEAAEAAAAKAAMAAAAEAAEAAAALAAMAAAAEAAEAAAACAAQAAAAEAAEAAAACAAUAAAAEAAEAAAACAAYAAAAEAAEAAAACAAcAAAAEAAEAAAACAAgAAAAEAAEAAAACAAkAAAAEAAEAAAACAAoAAAAEAAEAAAACAAsAAAAEAAEAAAACAAMAAAAEAAEAAAAMAAwAAAAEAAEAAAA=")
-tile_set = SubResource("TileSet_8sn6x")
-
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." node_paths=PackedStringArray("animation_tree")]
 position = Vector2(137, 255)
-collision_layer = 2
 collision_mask = 2
 script = ExtResource("2_7elwf")
 animation_tree = NodePath("AnimationTree")
@@ -429,3 +429,22 @@ shape = SubResource("CapsuleShape2D_14rdl")
 [node name="Node2D" type="Node2D" parent="."]
 
 [node name="Clock" parent="." instance=ExtResource("4_iio4l")]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(238.5, 112.25)
+shape = SubResource("RectangleShape2D_j42x0")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(240, 399)
+shape = SubResource("RectangleShape2D_j42x0")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(79, 255)
+shape = SubResource("RectangleShape2D_x6rpu")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(400, 256)
+shape = SubResource("RectangleShape2D_x6rpu")
