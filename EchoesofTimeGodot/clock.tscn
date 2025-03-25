@@ -1,5 +1,6 @@
-[gd_scene load_steps=12 format=3 uid="uid://b3c7jxuqmyv4k"]
+[gd_scene load_steps=14 format=3 uid="uid://b3c7jxuqmyv4k"]
 
+[ext_resource type="Script" path="res://clock.gd" id="1_a5it8"]
 [ext_resource type="Texture2D" uid="uid://byxxsvypht5ey" path="res://ClockAnimation/pixil-frame-0-7.png" id="1_cuwp3"]
 [ext_resource type="Texture2D" uid="uid://cxvdgj2rtff36" path="res://ClockAnimation/pixil-frame-0(6).png" id="2_ovm65"]
 [ext_resource type="Texture2D" uid="uid://brsr2nyx1q7e" path="res://ClockAnimation/pixil-frame-0(5).png" id="3_5kaxt"]
@@ -9,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://ct3pr2veufevn" path="res://ClockAnimation/pixil-frame-0(1).png" id="7_815ov"]
 [ext_resource type="Texture2D" uid="uid://c8nrhfc4oqges" path="res://ClockAnimation/pixil-frame-0.png" id="8_t77bt"]
 [ext_resource type="Script" path="res://area_2d.gd" id="9_duqqx"]
+[ext_resource type="Script" path="res://rich_text_label.gd" id="11_ksepd"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_fjcjt"]
 animations = [{
@@ -47,6 +49,7 @@ radius = 5.09902
 
 [node name="Clock" type="Node2D"]
 position = Vector2(246, 169)
+script = ExtResource("1_a5it8")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_fjcjt")
@@ -61,5 +64,13 @@ script = ExtResource("9_duqqx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("CircleShape2D_wtguo")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = -202.0
+offset_top = 354.0
+offset_right = 879.0
+offset_bottom = 442.0
+text = "Press 'q' to use the Weird Clock."
+script = ExtResource("11_ksepd")
 
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
