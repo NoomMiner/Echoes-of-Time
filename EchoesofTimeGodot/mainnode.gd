@@ -8,7 +8,7 @@ func _ready() -> void:
 func _input(ev):
 	if Input.is_key_pressed(KEY_Q):
 		if (state == 2 && get_child(2).isClose == true):
-			# go to cake scene
+			get_tree().change_scene_to_file("res://cakeScene.tscn")
 			pass
 		if state == 1:
 			# do some kind of animation
