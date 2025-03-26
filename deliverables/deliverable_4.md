@@ -42,7 +42,7 @@ Added interactions for door and between clock/door:<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler<br>
 
-**Requirement**: Multiple rooms with smooth transitions between them
+**Requirement**: Multiple rooms with smooth transitions between them<br>
 Added cake room (including interactive door and cake) and implemented movement between rooms:<br>
 **Issue**: [Issue #18](https://github.com/NoomMiner/Echoes-of-Time/issues/18)<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/54<br>
@@ -55,7 +55,7 @@ Added cake room (including interactive door and cake) and implemented movement b
 **Implemented by**: Tyler<br>
 **Approved by**: <br>
 
-**Requirement**: Clean up Code
+**Requirement**: Clean up Code<br>
 **Issue**: [Issue #13](https://github.com/NoomMiner/Echoes-of-Time/issues/13)<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/47 (add git ignore)<br>
 **Implemented by**: Tyler<br>
@@ -81,7 +81,7 @@ Added & implemented cake sprites:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/54<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler<br>
-Added player camera tracking and implemented textures to floor:
+Added player camera tracking and implemented textures to floor:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/60<br>
 **Implemented by**: Yahir<br>
 **Approved by**: Tyler<br>
