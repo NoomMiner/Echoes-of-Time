@@ -2,15 +2,18 @@
 
 
 # Requirements
-## Example:
-**Requirement**: As a Student, I want to add a homework assignment so that I can organize my ToDo list.<br>
-**Issue**: <link to your GitHub issue><br>
-**Pull request**: https://github.com/user/project/pull/426<br>
-**Implemented by**: Martin Fowler<br>
-**Approved by**: Ada Lovelace<br>
-**Print screen**: A print screen that depicts the implemented feature (if applicable)<br>
+**Requirement**: As a casual gamer, I want simple, clear mechanics so that I can play without frustration.<br>
+**Issue**: [Issue #12](https://github.com/NoomMiner/Echoes-of-Time/issues/12)<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/43<br>
+**Implemented by**: Yahir<br>
+**Approved by**: Tyler<br>
 
 # Tests
+The testing framework used was GUT (Godot Unit Testing). The test scripts can be viewed [Here](../EchoesofTimeGodot/test/unit).
+## Example test
+- Class Tested: [player.tscn](../EchoesofTimeGodot/player.tscn)
+- Script: [test_movement.gd](../EchoesofTimeGodot/test/unit/test_movement.gd)
+This test ensured that the correct velocity was applied to the character depending on the direction pressed.
 
 # Technology
 
@@ -26,3 +29,4 @@
 - [README](../README.md)
 - [CONTRIBUTING](../CONTRIBUTING.md)
 - [CODE OF CONDUCT](../CODE_OF_CONDUCT.md)
+
