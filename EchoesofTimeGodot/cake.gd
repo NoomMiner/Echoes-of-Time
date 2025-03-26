@@ -17,7 +17,8 @@ func _input(ev):
 				assoText = get_child(2)
 				isEaten = true
 				get_child(3).visible = true
-				## change sprite?
+				get_child(4).visible = false
+				get_child(5).visible = true
 			else:
 				assoText.visible = true
 
