@@ -50,13 +50,13 @@ Added cake room (including interactive door and cake) and implemented movement b
 **Approved by**: Tyler <br>
 
 **Requirement**: Add tests<br>
-**Issue**: <br>
+**Issue**: [Issue #63](https://github.com/NoomMiner/Echoes-of-Time/issues/63)<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/56<br>
 **Implemented by**: Tyler<br>
 **Approved by**: <br>
 
 **Requirement**: Clean up Code
-**Issue**: [Issue #14](https://github.com/NoomMiner/Echoes-of-Time/issues/14)<br>
+**Issue**: [Issue #13](https://github.com/NoomMiner/Echoes-of-Time/issues/13)<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/47 (add git ignore)<br>
 **Implemented by**: Tyler<br>
 **Approved by**: Yahir <br>
@@ -68,7 +68,7 @@ Added cake room (including interactive door and cake) and implemented movement b
 **Approved by**: Tyler<br>
 
 **Requirement**: Stylistic Graphics <br>
-**Issue**: <br>
+**Issue**: [Issue #14](https://github.com/NoomMiner/Echoes-of-Time/issues/14)<br>
 Added tile files:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/42<br>
 **Implemented by**: Wil<br>
@@ -76,7 +76,7 @@ Added tile files:<br>
 Added clock animation:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/44<br>
 **Implemented by**: Skyler<br>
-**Approved byA**: Yahir<br>
+**Approved by**: Yahir<br>
 Added & implemented cake sprites:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/54<br>
 **Implemented by**: Skyler<br>
@@ -89,6 +89,13 @@ Added doors and skull file assets:
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/59<br>
 **Implemented by**: Wil<br>
 **Approved by**: Tyler<br>
+
+**Requirement**: Deploy game to itch.io <br>
+**Issue**: [Issue #64](https://github.com/NoomMiner/Echoes-of-Time/issues/64)<br>
+**Pull request**: N/A <br>
+**Implemented by**: Tyler<br>
+**Approved by**: N/A<br>
+
 
 # Tests
 The testing framework used was GUT (Godot Unit Testing). The test scripts can be viewed [Here](../EchoesofTimeGodot/test/unit).
