@@ -1,14 +1,14 @@
 [gd_scene load_steps=40 format=4 uid="uid://163jlpaexy7v"]
 
 [ext_resource type="Script" path="res://cake_scene.gd" id="1_qvij7"]
-[ext_resource type="Texture2D" uid="uid://cd2esgpu1nmj" path="res://tiles.png" id="2_k4eax"]
+[ext_resource type="Texture2D" uid="uid://bpy41lefvtkgr" path="res://tiles.png" id="2_k4eax"]
 [ext_resource type="Script" path="res://character_body_2d.gd" id="3_gk0e5"]
-[ext_resource type="Texture2D" uid="uid://hgi741l6o84p" path="res://player.png" id="4_6m6cf"]
+[ext_resource type="Texture2D" uid="uid://0dhx8p18ukvn" path="res://player.png" id="4_6m6cf"]
 [ext_resource type="Script" path="res://door.gd" id="5_cgsmv"]
 [ext_resource type="Script" path="res://rich_text_label.gd" id="6_gy0av"]
 [ext_resource type="Script" path="res://cake.gd" id="7_4hxqe"]
-[ext_resource type="Texture2D" uid="uid://ceqnvhnbnepwm" path="res://SkylerAssets/cake_slice.png" id="7_5bj5r"]
-[ext_resource type="Texture2D" uid="uid://boj3q0jpwneyx" path="res://SkylerAssets/cake_eaten.png" id="8_gak7s"]
+[ext_resource type="Texture2D" uid="uid://bhe5mv6f6mcaf" path="res://SkylerAssets/cake_slice.png" id="7_5bj5r"]
+[ext_resource type="Texture2D" uid="uid://lk2cge2csnsf" path="res://SkylerAssets/cake_eaten.png" id="8_gak7s"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vs8ys"]
 texture = ExtResource("2_k4eax")
