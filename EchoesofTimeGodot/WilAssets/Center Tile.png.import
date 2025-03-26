@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bb5mj053gomth"
-path="res://.godot/imported/Cracked Tile 2.png-30091778588ad30bdd3cf10d90c6903b.ctex"
+uid="uid://of1ermlkp43h"
+path="res://.godot/imported/Center Tile.png-b4bf60f211eb28e50f8cf26579847971.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Cracked Tile 2.png"
-dest_files=["res://.godot/imported/Cracked Tile 2.png-30091778588ad30bdd3cf10d90c6903b.ctex"]
+source_file="res://WilAssets/Center Tile.png"
+dest_files=["res://.godot/imported/Center Tile.png-b4bf60f211eb28e50f8cf26579847971.ctex"]
 
 [params]
 

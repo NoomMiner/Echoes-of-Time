@@ -1,12 +1,12 @@
 [gd_scene load_steps=38 format=4 uid="uid://163jlpaexy7v"]
 
-[ext_resource type="Texture2D" uid="uid://c4l0dmnysvb7b" path="res://tiles.png" id="2_k4eax"]
+[ext_resource type="Texture2D" uid="uid://cd2esgpu1nmj" path="res://tiles.png" id="2_k4eax"]
 [ext_resource type="Script" path="res://character_body_2d.gd" id="3_gk0e5"]
 [ext_resource type="Texture2D" uid="uid://hgi741l6o84p" path="res://player.png" id="4_6m6cf"]
 [ext_resource type="Script" path="res://door.gd" id="5_cgsmv"]
 [ext_resource type="Script" path="res://rich_text_label.gd" id="6_gy0av"]
 [ext_resource type="Script" path="res://cake.gd" id="7_4hxqe"]
-[ext_resource type="Texture2D" uid="uid://b26nfchpiw6c7" path="res://Congrats Cake.png" id="8_5rspm"]
+[ext_resource type="Texture2D" uid="uid://dfws4qali7182" path="res://WilAssets/Congrats Cake.png" id="7_gqnfc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vs8ys"]
 texture = ExtResource("2_k4eax")
@@ -515,7 +515,7 @@ script = ExtResource("6_gy0av")
 
 [node name="Sprite2D" type="Sprite2D" parent="cake"]
 position = Vector2(297, 256)
-texture = ExtResource("8_5rspm")
+texture = ExtResource("7_gqnfc")
 
 [connection signal="body_entered" from="Door/Area2D" to="Door" method="_on_area_2d_body_entered"]
 [connection signal="body_exited" from="Door/Area2D" to="Door" method="_on_area_2d_body_exited"]
