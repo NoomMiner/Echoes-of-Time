@@ -1,8 +1,8 @@
 [gd_scene load_steps=37 format=4 uid="uid://besgwy1ytubnd"]
 
-[ext_resource type="Texture2D" uid="uid://cd2esgpu1nmj" path="res://tiles.png" id="1_7dapk"]
+[ext_resource type="Texture2D" uid="uid://bpy41lefvtkgr" path="res://tiles.png" id="1_7dapk"]
 [ext_resource type="Script" path="res://mainnode.gd" id="1_va0ri"]
-[ext_resource type="Texture2D" uid="uid://hgi741l6o84p" path="res://player.png" id="2_5s8xy"]
+[ext_resource type="Texture2D" uid="uid://0dhx8p18ukvn" path="res://player.png" id="2_5s8xy"]
 [ext_resource type="Script" path="res://character_body_2d.gd" id="2_7elwf"]
 [ext_resource type="Script" path="res://door.gd" id="4_3ovga"]
 [ext_resource type="PackedScene" uid="uid://b3c7jxuqmyv4k" path="res://clock.tscn" id="4_iio4l"]
