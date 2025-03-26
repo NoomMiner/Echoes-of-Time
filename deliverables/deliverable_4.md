@@ -1,5 +1,6 @@
 # Introduction
 
+
 # Requirements
 ## Example:
 **Requirement**: As a Student, I want to add a homework assignment so that I can organize my ToDo list.<br>
@@ -21,3 +22,7 @@
 
 # Lessons Learned
 
+# Important Files
+- [README](README.md)
+- [CONTRIBUTING](CONTRIBUTING.md)
+- [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
