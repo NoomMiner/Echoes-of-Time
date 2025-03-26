@@ -1,14 +1,17 @@
-[gd_scene load_steps=36 format=4 uid="uid://baj8me13g3l0x"]
+[gd_scene load_steps=40 format=4 uid="uid://163jlpaexy7v"]
 
-[ext_resource type="Texture2D" uid="uid://c4l0dmnysvb7b" path="res://tiles.png" id="1_q65qn"]
-[ext_resource type="Script" path="res://character_body_2d.gd" id="2_xuux0"]
-[ext_resource type="Texture2D" uid="uid://hgi741l6o84p" path="res://player.png" id="3_nh5dk"]
-[ext_resource type="Script" path="res://camera_2d.gd" id="4_3wlfd"]
-[ext_resource type="PackedScene" uid="uid://b3c7jxuqmyv4k" path="res://clock.tscn" id="4_uvov0"]
-[ext_resource type="Script" path="res://rich_text_label.gd" id="6_mfwlw"]
+[ext_resource type="Script" path="res://cake_scene.gd" id="1_qvij7"]
+[ext_resource type="Texture2D" uid="uid://cd2esgpu1nmj" path="res://tiles.png" id="2_k4eax"]
+[ext_resource type="Script" path="res://character_body_2d.gd" id="3_gk0e5"]
+[ext_resource type="Texture2D" uid="uid://hgi741l6o84p" path="res://player.png" id="4_6m6cf"]
+[ext_resource type="Script" path="res://door.gd" id="5_cgsmv"]
+[ext_resource type="Script" path="res://rich_text_label.gd" id="6_gy0av"]
+[ext_resource type="Script" path="res://cake.gd" id="7_4hxqe"]
+[ext_resource type="Texture2D" uid="uid://ceqnvhnbnepwm" path="res://SkylerAssets/cake_slice.png" id="7_5bj5r"]
+[ext_resource type="Texture2D" uid="uid://boj3q0jpwneyx" path="res://SkylerAssets/cake_eaten.png" id="8_gak7s"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vs8ys"]
-texture = ExtResource("1_q65qn")
+texture = ExtResource("2_k4eax")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 1:0/0 = 0
@@ -389,30 +392,35 @@ states/Walk/position = Vector2(646, 91)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_14rdl"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4e4j2"]
+size = Vector2(25.5, 58.5)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_j42x0"]
 size = Vector2(353, 32.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_x6rpu"]
 size = Vector2(32, 256)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ysm78"]
-size = Vector2(24, 63)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d3ha0"]
+size = Vector2(50, 54)
 
-[node name="mainNode" type="Node2D"]
+[node name="cakeScene" type="Node2D"]
+script = ExtResource("1_qvij7")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
-tile_map_data = PackedByteArray("AAADAAQAAAABAAEAAAADAAUAAAABAAEAAAADAAYAAAABAAEAAAADAAcAAAABAAEAAAADAAgAAAABAAEAAAADAAkAAAABAAEAAAADAAoAAAABAAEAAAADAAsAAAABAAEAAAAEAAQAAAABAAEAAAAEAAUAAAABAAEAAAAEAAYAAAABAAEAAAAEAAcAAAABAAEAAAAEAAgAAAABAAEAAAAEAAkAAAABAAEAAAAEAAoAAAABAAEAAAAEAAsAAAABAAEAAAAFAAQAAAABAAEAAAAFAAUAAAABAAEAAAAFAAYAAAABAAEAAAAFAAcAAAABAAEAAAAFAAgAAAABAAEAAAAFAAkAAAABAAEAAAAFAAoAAAABAAEAAAAFAAsAAAABAAEAAAAGAAQAAAABAAEAAAAGAAYAAAABAAEAAAAGAAcAAAABAAEAAAAGAAgAAAABAAEAAAAGAAkAAAABAAEAAAAGAAoAAAABAAEAAAAGAAsAAAABAAEAAAAHAAQAAAABAAEAAAAHAAUAAAABAAEAAAAHAAYAAAABAAEAAAAHAAcAAAABAAEAAAAHAAgAAAABAAEAAAAHAAkAAAABAAEAAAAHAAoAAAABAAEAAAAHAAsAAAABAAEAAAAIAAQAAAABAAEAAAAIAAUAAAABAAEAAAAIAAYAAAABAAEAAAAIAAcAAAABAAEAAAAIAAgAAAABAAEAAAAIAAkAAAABAAEAAAAIAAoAAAABAAEAAAAIAAsAAAABAAEAAAAJAAQAAAABAAEAAAAJAAUAAAABAAEAAAAJAAYAAAABAAEAAAAJAAcAAAABAAEAAAAJAAgAAAABAAEAAAAJAAkAAAABAAEAAAAJAAoAAAABAAEAAAAJAAsAAAABAAEAAAAKAAQAAAABAAEAAAAKAAUAAAABAAEAAAAKAAYAAAABAAEAAAAKAAcAAAABAAEAAAAKAAgAAAABAAEAAAAKAAkAAAABAAEAAAAKAAoAAAABAAEAAAAKAAsAAAABAAEAAAALAAQAAAABAAEAAAALAAUAAAABAAEAAAALAAYAAAABAAEAAAALAAcAAAABAAEAAAALAAgAAAABAAEAAAALAAkAAAABAAEAAAALAAoAAAABAAEAAAALAAsAAAABAAEAAAACAAwAAAAEAAEAAAADAAwAAAAEAAEAAAAEAAwAAAAEAAEAAAAFAAwAAAAEAAEAAAAGAAwAAAAEAAEAAAAHAAwAAAAEAAEAAAAIAAwAAAAEAAEAAAAJAAwAAAAEAAEAAAAKAAwAAAAEAAEAAAALAAwAAAAEAAEAAAAMAAMAAAAEAAEAAAAMAAQAAAAEAAEAAAAMAAUAAAAEAAEAAAAMAAYAAAAEAAEAAAAMAAcAAAABAAkAAAAMAAgAAAABAAkAAAAMAAkAAAAEAAEAAAAMAAoAAAAEAAEAAAAMAAsAAAAEAAEAAAADAAMAAAAEAAEAAAAEAAMAAAAEAAEAAAAFAAMAAAAEAAEAAAAGAAMAAAAEAAEAAAAHAAMAAAAEAAEAAAAIAAMAAAAEAAEAAAAJAAMAAAAEAAEAAAAKAAMAAAAEAAEAAAALAAMAAAAEAAEAAAACAAQAAAAEAAEAAAACAAUAAAAEAAEAAAACAAYAAAAEAAEAAAACAAcAAAAEAAEAAAACAAgAAAAEAAEAAAACAAkAAAAEAAEAAAACAAoAAAAEAAEAAAACAAsAAAAEAAEAAAACAAMAAAAEAAEAAAAMAAwAAAAEAAEAAAAGAAUAAAABAAEAAAA=")
+tile_map_data = PackedByteArray("AAADAAQAAAABAAEAAAADAAUAAAABAAEAAAADAAYAAAABAAEAAAADAAcAAAABAAEAAAADAAgAAAABAAEAAAADAAkAAAABAAEAAAADAAoAAAABAAEAAAADAAsAAAABAAEAAAAEAAQAAAABAAEAAAAEAAUAAAABAAEAAAAEAAYAAAABAAEAAAAEAAcAAAABAAEAAAAEAAgAAAABAAEAAAAEAAkAAAABAAEAAAAEAAoAAAABAAEAAAAEAAsAAAABAAEAAAAFAAQAAAABAAEAAAAFAAUAAAABAAEAAAAFAAYAAAABAAEAAAAFAAcAAAABAAEAAAAFAAgAAAABAAEAAAAFAAkAAAABAAEAAAAFAAoAAAABAAEAAAAFAAsAAAABAAEAAAAGAAQAAAABAAEAAAAGAAYAAAABAAEAAAAGAAcAAAABAAEAAAAGAAgAAAABAAEAAAAGAAkAAAABAAEAAAAGAAoAAAABAAEAAAAGAAsAAAABAAEAAAAHAAQAAAABAAEAAAAHAAUAAAABAAEAAAAHAAYAAAABAAEAAAAHAAcAAAABAAEAAAAHAAgAAAABAAEAAAAHAAkAAAABAAEAAAAHAAoAAAABAAEAAAAHAAsAAAABAAEAAAAIAAQAAAABAAEAAAAIAAUAAAABAAEAAAAIAAYAAAABAAEAAAAIAAcAAAABAAEAAAAIAAgAAAABAAEAAAAIAAkAAAABAAEAAAAIAAoAAAABAAEAAAAIAAsAAAABAAEAAAAJAAQAAAABAAEAAAAJAAUAAAABAAEAAAAJAAYAAAABAAEAAAAJAAcAAAABAAEAAAAJAAgAAAABAAEAAAAJAAkAAAABAAEAAAAJAAoAAAABAAEAAAAJAAsAAAABAAEAAAAKAAQAAAABAAEAAAAKAAUAAAABAAEAAAAKAAYAAAABAAEAAAAKAAcAAAABAAEAAAAKAAgAAAABAAEAAAAKAAkAAAABAAEAAAAKAAoAAAABAAEAAAAKAAsAAAABAAEAAAALAAQAAAABAAEAAAALAAUAAAABAAEAAAALAAYAAAABAAEAAAALAAcAAAABAAEAAAALAAgAAAABAAEAAAALAAkAAAABAAEAAAALAAoAAAABAAEAAAALAAsAAAABAAEAAAACAAwAAAAEAAEAAAADAAwAAAAEAAEAAAAEAAwAAAAEAAEAAAAFAAwAAAAEAAEAAAAGAAwAAAAEAAEAAAAHAAwAAAAEAAEAAAAIAAwAAAAEAAEAAAAJAAwAAAAEAAEAAAAKAAwAAAAEAAEAAAALAAwAAAAEAAEAAAAMAAMAAAAEAAEAAAAMAAQAAAAEAAEAAAAMAAUAAAAEAAEAAAAMAAYAAAAEAAEAAAAMAAcAAAAEAAEAAAAMAAgAAAAEAAEAAAAMAAkAAAAEAAEAAAAMAAoAAAAEAAEAAAAMAAsAAAAEAAEAAAADAAMAAAAEAAEAAAAEAAMAAAAEAAEAAAAFAAMAAAAEAAEAAAAGAAMAAAAEAAEAAAAHAAMAAAAEAAEAAAAIAAMAAAAEAAEAAAAJAAMAAAAEAAEAAAAKAAMAAAAEAAEAAAALAAMAAAAEAAEAAAACAAQAAAAEAAEAAAACAAUAAAAEAAEAAAACAAYAAAAEAAEAAAACAAcAAAABAAkAAAACAAgAAAABAAkAAAACAAkAAAAEAAEAAAACAAoAAAAEAAEAAAACAAsAAAAEAAEAAAACAAMAAAAEAAEAAAAMAAwAAAAEAAEAAAAGAAUAAAABAAEAAAA=")
 tile_set = SubResource("TileSet_8sn6x")
 collision_enabled = false
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." node_paths=PackedStringArray("animation_tree")]
-position = Vector2(137, 255)
+z_index = 1
+position = Vector2(110, 249)
 collision_mask = 2
-script = ExtResource("2_xuux0")
+script = ExtResource("3_gk0e5")
 animation_tree = NodePath("AnimationTree")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
-texture = ExtResource("3_nh5dk")
+texture = ExtResource("4_6m6cf")
 hframes = 6
 vframes = 12
 
@@ -431,50 +439,93 @@ parameters/Walk/blend_position = Vector2(0, 0)
 position = Vector2(0, 8)
 shape = SubResource("CapsuleShape2D_14rdl")
 
-[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-script = ExtResource("4_3wlfd")
+[node name="Area2D" type="Area2D" parent="CharacterBody2D"]
+position = Vector2(0, 16)
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/Area2D"]
+shape = SubResource("CapsuleShape2D_14rdl")
 
-[node name="Clock" parent="." instance=ExtResource("4_uvov0")]
+[node name="Door" type="Node2D" parent="."]
+script = ExtResource("5_cgsmv")
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
+[node name="Area2D" type="Area2D" parent="Door"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Door/Area2D"]
+position = Vector2(110, 257)
+shape = SubResource("RectangleShape2D_4e4j2")
+
+[node name="restartText" type="RichTextLabel" parent="Door"]
+offset_left = 38.0
+offset_top = 524.0
+offset_right = 228.0
+offset_bottom = 549.0
+text = "Press 'r' to restart"
+script = ExtResource("6_gy0av")
+
+[node name="Walls" type="StaticBody2D" parent="."]
+visible = false
 collision_layer = 2
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls"]
 position = Vector2(238.5, 112.25)
 shape = SubResource("RectangleShape2D_j42x0")
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Walls"]
 position = Vector2(240, 399)
 shape = SubResource("RectangleShape2D_j42x0")
 
-[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Walls"]
 position = Vector2(79, 255)
 shape = SubResource("RectangleShape2D_x6rpu")
 
-[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Walls"]
 position = Vector2(400, 256)
 shape = SubResource("RectangleShape2D_x6rpu")
 
-[node name="Door" type="Area2D" parent="."]
+[node name="cake" type="Node2D" parent="."]
+script = ExtResource("7_4hxqe")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Door"]
-position = Vector2(370, 257.5)
-shape = SubResource("RectangleShape2D_ysm78")
+[node name="Area2D" type="Area2D" parent="cake"]
 
-[node name="LockedDoor" type="RichTextLabel" parent="Door"]
-offset_left = 10.0
-offset_top = 515.0
-offset_right = 422.0
-offset_bottom = 555.0
-text = "The door is locked"
-script = ExtResource("6_mfwlw")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="cake/Area2D"]
+position = Vector2(295, 258)
+shape = SubResource("RectangleShape2D_d3ha0")
 
-[node name="UseKey" type="RichTextLabel" parent="Door"]
-offset_left = 20.0
-offset_top = 1030.0
-offset_right = 432.0
-offset_bottom = 1070.0
-text = "Press 'q' to use the key."
-script = ExtResource("6_mfwlw")
+[node name="eatcake" type="RichTextLabel" parent="cake"]
+offset_left = 38.0
+offset_top = 524.0
+offset_right = 288.0
+offset_bottom = 564.0
+text = "Press 'q' to eat cake"
+script = ExtResource("6_gy0av")
+
+[node name="nocake" type="RichTextLabel" parent="cake"]
+offset_left = 35.0
+offset_top = 524.0
+offset_right = 231.0
+offset_bottom = 564.0
+text = "There is no more cake :(
+"
+script = ExtResource("6_gy0av")
+
+[node name="congrats" type="RichTextLabel" parent="cake"]
+offset_left = 41.0
+offset_top = 484.0
+offset_right = 399.0
+offset_bottom = 524.0
+text = "Yum! (The End.)"
+script = ExtResource("6_gy0av")
+
+[node name="freshCake" type="Sprite2D" parent="cake"]
+position = Vector2(297, 256)
+texture = ExtResource("7_5bj5r")
+
+[node name="cakeEaten" type="Sprite2D" parent="cake"]
+visible = false
+position = Vector2(297, 256)
+texture = ExtResource("8_gak7s")
+
+[connection signal="body_entered" from="Door/Area2D" to="Door" method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Door/Area2D" to="Door" method="_on_area_2d_body_exited"]
+[connection signal="body_shape_entered" from="cake/Area2D" to="cake" method="_on_area_2d_body_shape_entered"]
+[connection signal="body_shape_exited" from="cake/Area2D" to="cake" method="_on_area_2d_body_shape_exited"]
