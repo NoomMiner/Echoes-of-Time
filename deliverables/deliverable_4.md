@@ -99,7 +99,11 @@ The testing framework used was GUT (Godot Unit Testing). The test scripts can be
 This test ensured that the correct velocity was applied to the character depending on the direction pressed.
 ![Test Image](./unit_test_output.png)
 
-# Technology
+# Technologies
+- Git/Github: used for version control and communication
+- Godot: We chose godot because it is open source and has a very active community that is dedicated to documentation. This made it a great choise for us, as we are all junior developers.
+- GUT(Godot Unit Testing): GUT is the standard for unit testing in Godot. It additionally has a very easy to use interface.
+- Itch.io: explained in next section
 
 # Deployment
 - [Link to itch.io](https://noomminer.itch.io/echoes-of-time) <br>
