@@ -122,6 +122,7 @@ The licensing we chose to adopt for our source code is the [GNU GPL v3](https://
 # UX Design
 
 # Lessons Learned
+Our team learned how to create various objects that are interactable, we learned how to create and design environments in the Godot engine. Our team worked hard throughout the process of creating our first release. Problems that arose during the process were mostly in regards to lack of communication and scheduling difficulties, however, moving forward we are working hard to overcome these difficulties. 
 
 # Demo
 [Here](https://drive.google.com/file/d/1xDIINoCwLWYOs4SEFlpelnUAiyvW0-XD/view?usp=drive_link)
