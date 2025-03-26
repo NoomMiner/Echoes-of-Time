@@ -13,7 +13,6 @@ https://github.com/NoomMiner/Echoes-of-Time
 Script for movement:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/39<br>
 **Implemented by**: Yahir<br>
-
 **Approved by**: Tyler<br>
 Adjust GoDot node structure and script for compatability:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/45<br>
@@ -25,7 +24,7 @@ Fixed collision w/ walls<br>
 **Approved by**: Tyler<br>
 
 **Requirement**: Make the rooms interactable and responsive to change in them.<br>
-**Issue**: [Issue #17](https://github.com/NoomMiner/Echoes-of-Time/issues/12)<br>
+**Issue**: [Issue #12](https://github.com/NoomMiner/Echoes-of-Time/issues/12)<br>
 Added Clock:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/44<br>
 **Implemented by**: Skyler<br>
@@ -50,7 +49,46 @@ Added cake room (including interactive door and cake) and implemented movement b
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler <br>
 
+**Requirement**: Add tests<br>
+**Issue**: <br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/56<br>
+**Implemented by**: Tyler<br>
+**Approved by**: <br>
 
+**Requirement**: Clean up Code
+**Issue**: [Issue #14](https://github.com/NoomMiner/Echoes-of-Time/issues/14)<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/47 (add git ignore)<br>
+**Implemented by**: Tyler<br>
+**Approved by**: Yahir <br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/52 (add git ignore)<br>
+**Implemented by**: Tyler<br>
+**Approved by**: Skyler <br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/58<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Tyler<br>
+
+**Requirement**: Stylistic Graphics <br>
+**Issue**: <br>
+Added tile files:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/42<br>
+**Implemented by**: Wil<br>
+**Approved by**: Yahir<br>
+Added clock animation:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/44<br>
+**Implemented by**: Skyler<br>
+**Approved byA**: Yahir<br>
+Added & implemented cake sprites:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/54<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Tyler<br>
+Added player camera tracking and implemented textures to floor:
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/60<br>
+**Implemented by**: Yahir<br>
+**Approved by**: Tyler<br>
+Added doors and skull file assets:
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/59<br>
+**Implemented by**: Wil<br>
+**Approved by**: Tyler<br>
 
 # Tests
 The testing framework used was GUT (Godot Unit Testing). The test scripts can be viewed [Here](../EchoesofTimeGodot/test/unit).
