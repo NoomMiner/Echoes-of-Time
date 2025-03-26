@@ -68,6 +68,7 @@ This test ensured that the correct velocity was applied to the character dependi
 We have decided to deplot the product on the independent game development platform itch.io. We chose itch.io because it is a very popular platform for inde game developers who are looking to get a start. We will deploy by creating a page for the project on itch.io and uploading an executable.
 
 # Licensing
+The licensing we chose to adopt for our source code is the [GNU GPL v3](https://github.com/NoomMiner/Echoes-of-Time/blob/deliverable-4/LICENSE) license because it allows for our creative work to be protected, it ensures our game code can be preserved for the years to come, and it also encourges community collaboration which we find to be something import for this project.
 
 # UX Design
 
