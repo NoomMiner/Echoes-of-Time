@@ -12,8 +12,10 @@
 The testing framework used was GUT (Godot Unit Testing). The test scripts can be viewed [Here](../EchoesofTimeGodot/test/unit).
 ## Example test
 - Class Tested: [player.tscn](../EchoesofTimeGodot/player.tscn)
-- Script: [test_movement.gd](../EchoesofTimeGodot/test/unit/test_movement.gd)
+- Script: [test_movement.gd](../EchoesofTimeGodot/test/unit/test_movement.gd) <br>
+
 This test ensured that the correct velocity was applied to the character depending on the direction pressed.
+![Test Image](./unit_test_output.png)
 
 # Technology
 
