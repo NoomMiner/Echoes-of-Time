@@ -1,14 +1,21 @@
-[gd_scene load_steps=40 format=4 uid="uid://163jlpaexy7v"]
+[gd_scene load_steps=51 format=4 uid="uid://163jlpaexy7v"]
 
 [ext_resource type="Script" path="res://cake_scene.gd" id="1_qvij7"]
-[ext_resource type="Texture2D" uid="uid://bpy41lefvtkgr" path="res://tiles.png" id="2_k4eax"]
+
+[ext_resource type="Texture2D" uid="uid://bctjydwfk6f57" path="res://tiles.png" id="2_k4eax"]
 [ext_resource type="Script" path="res://character_body_2d.gd" id="3_gk0e5"]
-[ext_resource type="Texture2D" uid="uid://0dhx8p18ukvn" path="res://player.png" id="4_6m6cf"]
+[ext_resource type="Texture2D" uid="uid://bksbsmaf4m4p0" path="res://WilAssets/Center Tile.png" id="3_inpv8"]
+[ext_resource type="Texture2D" uid="uid://cey0ochxewb5v" path="res://WilAssets/Corner Tile.png" id="4_6ao7m"]
+[ext_resource type="Texture2D" uid="uid://hgi741l6o84p" path="res://player.png" id="4_6m6cf"]
+
 [ext_resource type="Script" path="res://door.gd" id="5_cgsmv"]
+[ext_resource type="Texture2D" uid="uid://cmlkwlvkpyj8e" path="res://WilAssets/Cracked Tile 1.png" id="5_g8ba1"]
 [ext_resource type="Script" path="res://rich_text_label.gd" id="6_gy0av"]
+[ext_resource type="Texture2D" uid="uid://dksefsim8wbip" path="res://WilAssets/Cracked Tile 2.png" id="6_jpc46"]
 [ext_resource type="Script" path="res://cake.gd" id="7_4hxqe"]
-[ext_resource type="Texture2D" uid="uid://bhe5mv6f6mcaf" path="res://SkylerAssets/cake_slice.png" id="7_5bj5r"]
-[ext_resource type="Texture2D" uid="uid://lk2cge2csnsf" path="res://SkylerAssets/cake_eaten.png" id="8_gak7s"]
+
+[ext_resource type="Texture2D" uid="uid://c70sa5ebbvaky" path="res://SkylerAssets/cake_slice.png" id="7_5bj5r"]
+[ext_resource type="Texture2D" uid="uid://8am5wtmiyk40" path="res://WilAssets/Uncracked Edge Tile.png" id="7_5cxdq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vs8ys"]
 texture = ExtResource("2_k4eax")
@@ -155,6 +162,33 @@ texture_region_size = Vector2i(32, 32)
 tile_size = Vector2i(32, 32)
 physics_layer_0/collision_layer = 2
 sources/0 = SubResource("TileSetAtlasSource_vs8ys")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_guekr"]
+texture = ExtResource("3_inpv8")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_idv0d"]
+texture = ExtResource("4_6ao7m")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v45u7"]
+texture = ExtResource("5_g8ba1")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gqtxi"]
+texture = ExtResource("6_jpc46")
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_aijl5"]
+texture = ExtResource("7_5cxdq")
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_oilx7"]
+sources/0 = SubResource("TileSetAtlasSource_guekr")
+sources/1 = SubResource("TileSetAtlasSource_idv0d")
+sources/2 = SubResource("TileSetAtlasSource_v45u7")
+sources/3 = SubResource("TileSetAtlasSource_gqtxi")
+sources/4 = SubResource("TileSetAtlasSource_aijl5")
 
 [sub_resource type="Animation" id="Animation_n8ret"]
 length = 0.001
@@ -412,6 +446,10 @@ tile_map_data = PackedByteArray("AAADAAQAAAABAAEAAAADAAUAAAABAAEAAAADAAYAAAABAAE
 tile_set = SubResource("TileSet_8sn6x")
 collision_enabled = false
 
+[node name="TileMapLayer2" type="TileMapLayer" parent="TileMapLayer"]
+tile_map_data = PackedByteArray("AAAGAAgAAQAAAAAAAAAXAAgAAQAAAAAAAFAXABcAAQAAAAAAADAGABcAAQAAAAAAAGAHAAgABAAAAAAAAAAIAAgABAAAAAAAAAAJAAgABAAAAAAAAAAKAAgABAAAAAAAAAALAAgABAAAAAAAAAAMAAgABAAAAAAAAAANAAgABAAAAAAAAAAOAAgABAAAAAAAAAAPAAgABAAAAAAAAAAQAAgABAAAAAAAAAARAAgABAAAAAAAAAASAAgABAAAAAAAAAATAAgABAAAAAAAAAAUAAgABAAAAAAAAAAVAAgABAAAAAAAAAAWAAgABAAAAAAAAAAXAAkABAAAAAAAAFAXAAoABAAAAAAAAFAXAAsABAAAAAAAAFAXAAwABAAAAAAAAFAXAA0ABAAAAAAAAFAXAA4ABAAAAAAAAFAXAA8ABAAAAAAAAFAXABAABAAAAAAAAFAXABEABAAAAAAAAFAXABIABAAAAAAAAFAXABMABAAAAAAAAFAXABQABAAAAAAAAFAXABUABAAAAAAAAFAXABYABAAAAAAAAFAWABcABAAAAAAAADAVABcABAAAAAAAADAUABcABAAAAAAAADATABcABAAAAAAAADASABcABAAAAAAAADARABcABAAAAAAAADAQABcABAAAAAAAADAPABcABAAAAAAAADAOABcABAAAAAAAADANABcABAAAAAAAADAMABcABAAAAAAAADALABcABAAAAAAAADAKABcABAAAAAAAADAJABcABAAAAAAAADAIABcABAAAAAAAADAHABcABAAAAAAAADAGABYABAAAAAAAAGAGABUABAAAAAAAAGAGABQABAAAAAAAAGAGABMABAAAAAAAAGAGABIABAAAAAAAAGAGABEABAAAAAAAAGAGABAABAAAAAAAAGAGAA8ABAAAAAAAAGAGAA4ABAAAAAAAAGAGAA0ABAAAAAAAAGAGAAwABAAAAAAAAGAGAAsABAAAAAAAAGAGAAoABAAAAAAAAGAGAAkABAAAAAAAAGAWABYAAgAAAAAAABAWABUAAAAAAAAAAAAWABQAAAAAAAAAAAAWABMAAAAAAAAAAAAWABIAAAAAAAAAAAAWABEAAAAAAAAAAAAWABAAAAAAAAAAAAAWAA8AAAAAAAAAAAAWAA4AAAAAAAAAAAAWAA0AAgAAAAAAAEAWAAwAAAAAAAAAAAAWAAsAAAAAAAAAAAAWAAoAAAAAAAAAAAAWAAkAAgAAAAAAAEAVAAkAAAAAAAAAAGAUAAkAAAAAAAAAAGATAAkAAAAAAAAAAGASAAkAAAAAAAAAAGARAAkAAAAAAAAAAGAQAAkAAAAAAAAAAGAPAAkAAAAAAAAAAGAOAAkAAAAAAAAAAGANAAkAAAAAAAAAAGAMAAkAAAAAAAAAAGALAAkAAAAAAAAAAGAKAAkAAAAAAAAAAGAJAAkAAAAAAAAAAGAIAAkAAAAAAAAAAGAHAAkAAAAAAAAAAAAHAAoAAAAAAAAAAAAHAAsAAgAAAAAAABAHAAwAAAAAAAAAADAHAA0AAAAAAAAAADAHAA4AAAAAAAAAADAHAA8AAgAAAAAAAAAHABAAAAAAAAAAADAHABEAAAAAAAAAADAHABIAAAAAAAAAADAHABMAAAAAAAAAADAHABQAAAAAAAAAADAHABUAAAAAAAAAADAHABYAAgAAAAAAABAIABYAAAAAAAAAAFAJABYAAAAAAAAAAFAKABYAAAAAAAAAAFALABYAAAAAAAAAAFAMABYAAAAAAAAAAFANABYAAAAAAAAAAFAOABYAAAAAAAAAAFAPABYAAAAAAAAAAFAQABYAAAAAAAAAAFARABYAAAAAAAAAAFASABYAAAAAAAAAAFATABYAAAAAAAAAAFAUABYAAAAAAAAAAFAVABYAAAAAAAAAAFANAA4AAwAAAAAAABANAA8AAAAAAAAAAAAPABAAAgAAAAAAAAANABEAAwAAAAAAAFAOABEAAwAAAAAAAAAPABEAAwAAAAAAADAQABAAAwAAAAAAADARABAAAwAAAAAAABAMAA4AAAAAAAAAAHAMAA8AAwAAAAAAABALAA0AAAAAAAAAAAALAAwAAAAAAAAAAEAUAAwAAAAAAAAAAFAUABAAAAAAAAAAAAAUABEAAAAAAAAAAAAUABIAAAAAAAAAAAAUABMAAAAAAAAAABATABMAAAAAAAAAAAATABQAAAAAAAAAAFASABQAAAAAAAAAAFARABQAAAAAAAAAAGAQABQAAAAAAAAAAGAPABQAAAAAAAAAAGAOABQAAAAAAAAAAGANABQAAAAAAAAAAAAIABMAAAAAAAAAAEAJABMAAAAAAAAAABAJABIAAAAAAAAAAGAKABEAAAAAAAAAAAAKABIAAAAAAAAAABAKABMAAAAAAAAAABALABMAAwAAAAAAACALABQAAAAAAAAAAAALABIAAwAAAAAAAHAMABIAAwAAAAAAACAMABMAAAAAAAAAABANABMAAAAAAAAAADAOABMAAAAAAAAAAAAPABMAAAAAAAAAAAAQABMAAAAAAAAAAAARABMAAAAAAAAAADARABIAAAAAAAAAADASABIAAAAAAAAAAEASABEAAAAAAAAAAEATABEAAAAAAAAAADATABAAAAAAAAAAAAAUAA8AAAAAAAAAAEATAA8AAAAAAAAAAAATAA4AAAAAAAAAAAAOAA0AAgAAAAAAADAPAAwAAAAAAAAAAEAPAAsAAAAAAAAAAEAOAAsAAAAAAAAAAEANAAsAAAAAAAAAAEAMAAsAAAAAAAAAACAMAAwAAAAAAAAAAFAMAA0AAAAAAAAAAFALAA4AAAAAAAAAABALAA8AAAAAAAAAAAALABAAAwAAAAAAADALABEAAAAAAAAAAAANABIAAwAAAAAAAAAOABIAAAAAAAAAADAPABIAAAAAAAAAACAQABIAAAAAAAAAACASABMAAAAAAAAAADAMABQAAAAAAAAAAAAKABQAAAAAAAAAABAKABAAAAAAAAAAAFAKAA8AAAAAAAAAAFAKAA4AAAAAAAAAAFAKAA0AAAAAAAAAAEAKAAwAAAAAAAAAAEANAAwAAAAAAAAAAEAOAAwAAAAAAAAAAEAQAAwAAAAAAAAAADARAAwAAAAAAAAAAEASAAwAAAAAAAAAACASAAsAAAAAAAAAAAATAAsAAAAAAAAAAAAUAAsAAAAAAAAAAFAUAA0AAAAAAAAAAEAUAA4AAAAAAAAAABAVAA8AAAAAAAAAAEAVABAAAAAAAAAAADAVABEAAAAAAAAAAFAVABIAAAAAAAAAAFAVABMAAAAAAAAAABAUABQAAAAAAAAAAEASABUAAAAAAAAAAFARABUAAAAAAAAAAFAQABUAAAAAAAAAAEAPABUAAAAAAAAAAEAOABUAAAAAAAAAAEANABUAAAAAAAAAAEAMABUAAAAAAAAAAFALABUAAAAAAAAAAFAJAA8AAAAAAAAAAGAJAA4AAAAAAAAAAEAJAA0AAAAAAAAAAEAJAAwAAAAAAAAAADAJAAsAAAAAAAAAADAJAAoAAAAAAAAAABAIAAoAAAAAAAAAABAIAAsAAAAAAAAAADAIAAwAAAAAAAAAAGAIAA0AAAAAAAAAAEAIAA4AAAAAAAAAABAIAA8AAAAAAAAAABAIABAAAAAAAAAAABAIABEAAAAAAAAAADAJABEAAAAAAAAAADAIABIAAAAAAAAAAGAJABAAAAAAAAAAADAJABQAAAAAAAAAABAJABUAAAAAAAAAAGAIABUAAAAAAAAAAGAIABQAAAAAAAAAAEAKABUAAAAAAAAAADATABUAAAAAAAAAADAUABUAAAAAAAAAADAVABQAAAAAAAAAAEAVABUAAAAAAAAAADAQABEAAAAAAAAAADARABEAAAAAAAAAAGATABIAAAAAAAAAAEASABAAAAAAAAAAADASAA8AAAAAAAAAAGASAA4AAAAAAAAAAEARAA4AAAAAAAAAABARAA8AAgAAAAAAAEAQAA8AAwAAAAAAADAPAA8AAgAAAAAAADAOAA8AAAAAAAAAABAOAA4AAwAAAAAAAAAPAA4AAwAAAAAAACAPAA0AAgAAAAAAADAQAA0AAAAAAAAAAGARAA0AAAAAAAAAAGASAA0AAAAAAAAAAEAQAA4AAwAAAAAAAFATAA0AAAAAAAAAAGATAAwAAAAAAAAAAGAVAAwAAAAAAAAAAGAVAA0AAAAAAAAAAGAVAAsAAAAAAAAAABAVAAoAAAAAAAAAABAUAAoAAAAAAAAAADATAAoAAAAAAAAAADASAAoAAAAAAAAAAGARAAoAAAAAAAAAAEARAAsAAAAAAAAAABAQAAoAAAAAAAAAAGAQAAsAAAAAAAAAAGAPAAoAAAAAAAAAABAOAAoAAAAAAAAAADANAAoAAAAAAAAAADAMAAoAAAAAAAAAAGALAAoAAAAAAAAAAEAKAAoAAAAAAAAAABAKAAsAAAAAAAAAADALAAsAAAAAAAAAAGANAA0AAgAAAAAAADAMABAAAwAAAAAAAGANABAAAAAAAAAAAFAOABAAAAAAAAAAACAMABEAAAAAAAAAAFAVAA4AAAAAAAAAAAA=")
+tile_set = SubResource("TileSet_oilx7")
+
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." node_paths=PackedStringArray("animation_tree")]
 z_index = 1
 position = Vector2(110, 249)
@@ -420,6 +458,7 @@ script = ExtResource("3_gk0e5")
 animation_tree = NodePath("AnimationTree")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture_filter = 1
 texture = ExtResource("4_6m6cf")
 hframes = 6
 vframes = 12
@@ -445,6 +484,9 @@ position = Vector2(0, 16)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/Area2D"]
 shape = SubResource("CapsuleShape2D_14rdl")
 
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="CharacterBody2D"]
+remote_path = NodePath("../../Camera2D")
+
 [node name="Door" type="Node2D" parent="."]
 script = ExtResource("5_cgsmv")
 
@@ -455,10 +497,10 @@ position = Vector2(110, 257)
 shape = SubResource("RectangleShape2D_4e4j2")
 
 [node name="restartText" type="RichTextLabel" parent="Door"]
-offset_left = 38.0
-offset_top = 524.0
-offset_right = 228.0
-offset_bottom = 549.0
+offset_left = 99.0
+offset_top = 192.0
+offset_right = 289.0
+offset_bottom = 217.0
 text = "Press 'r' to restart"
 script = ExtResource("6_gy0av")
 
@@ -492,38 +534,44 @@ position = Vector2(295, 258)
 shape = SubResource("RectangleShape2D_d3ha0")
 
 [node name="eatcake" type="RichTextLabel" parent="cake"]
-offset_left = 38.0
-offset_top = 524.0
-offset_right = 288.0
-offset_bottom = 564.0
+offset_left = 214.0
+offset_top = 228.0
+offset_right = 464.0
+offset_bottom = 268.0
 text = "Press 'q' to eat cake"
 script = ExtResource("6_gy0av")
 
 [node name="nocake" type="RichTextLabel" parent="cake"]
-offset_left = 35.0
-offset_top = 524.0
-offset_right = 231.0
-offset_bottom = 564.0
+offset_left = 141.0
+offset_top = 265.0
+offset_right = 337.0
+offset_bottom = 305.0
 text = "There is no more cake :(
 "
 script = ExtResource("6_gy0av")
 
 [node name="congrats" type="RichTextLabel" parent="cake"]
-offset_left = 41.0
-offset_top = 484.0
-offset_right = 399.0
-offset_bottom = 524.0
+offset_left = 181.0
+offset_top = 208.0
+offset_right = 539.0
+offset_bottom = 248.0
 text = "Yum! (The End.)"
 script = ExtResource("6_gy0av")
 
 [node name="freshCake" type="Sprite2D" parent="cake"]
+texture_filter = 1
 position = Vector2(297, 256)
 texture = ExtResource("7_5bj5r")
 
 [node name="cakeEaten" type="Sprite2D" parent="cake"]
 visible = false
+texture_filter = 1
 position = Vector2(297, 256)
 texture = ExtResource("8_gak7s")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(110, 249)
+zoom = Vector2(2.5, 2.5)
 
 [connection signal="body_entered" from="Door/Area2D" to="Door" method="_on_area_2d_body_entered"]
 [connection signal="body_exited" from="Door/Area2D" to="Door" method="_on_area_2d_body_exited"]
