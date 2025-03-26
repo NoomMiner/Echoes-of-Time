@@ -47,6 +47,7 @@ animations = [{
 radius = 5.09902
 
 [node name="Clock" type="Node2D"]
+texture_filter = 1
 position = Vector2(246, 169)
 script = ExtResource("1_a5it8")
 
@@ -65,10 +66,10 @@ shape = SubResource("CircleShape2D_wtguo")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 unique_name_in_owner = true
-offset_left = -202.0
-offset_top = 354.0
-offset_right = 879.0
-offset_bottom = 442.0
+offset_left = -101.0
+offset_top = -36.0
+offset_right = 980.0
+offset_bottom = 52.0
 text = "Press 'q' to use the Weird Clock."
 script = ExtResource("11_ksepd")
 
