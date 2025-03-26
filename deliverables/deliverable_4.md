@@ -8,47 +8,48 @@ We will incorporate various aspects of this world so as many people can enjoy it
 https://github.com/NoomMiner/Echoes-of-Time 
 
 # Requirements
-**Requirement**: As a casual gamer, I want simple, clear mechanics so that I can play without frustration.<br>
-**Issue**: [Issue #12](https://github.com/NoomMiner/Echoes-of-Time/issues/12)<br>
-**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/43<br>
+**Requirement**: Implement a Moveable Character.<br>
+**Issue**: [Issue #1](https://github.com/NoomMiner/Echoes-of-Time/issues/1)<br>
+Script for movement:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/39<br>
 **Implemented by**: Yahir<br>
-**Approved by**: Tyler<be>
 
-**Requirement**: Added Player Movement Script<br>
-**Issue**: [Issue #19](https://github.com/NoomMiner/Echoes-of-Time/issues/19)<br>
-**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/39#issue-2941884613<br>
-**Implemented by**: Yahir<br>
-**Approved by**: Wil<be> 
-
-**Requirement**: Assets<br>
-**Issue**: [Issue #14](https://github.com/NoomMiner/Echoes-of-Time/issues/14)<br>
-**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/42<br>
-**Implemented by**: Wil<br>
-**Approved by**: Skyler<be>
-
-**Requirement**: Player Walking <br>
-**Issue**: [Issue #19](https://github.com/NoomMiner/Echoes-of-Time/issues/19)<br>
+**Approved by**: Tyler<br>
+Adjust GoDot node structure and script for compatability:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/45<br>
 **Implemented by**: Tyler<br>
-**Approved by**: Yahir<be>
+**Approved by**: Yahir<br>
+Fixed collision w/ walls<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/46<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Tyler<br>
 
-**Requirement**: Interactive Clock Object Sprite and Intractability <br>
-**Issue**: [Issue #18](https://github.com/NoomMiner/Echoes-of-Time/issues/18)<br>
-**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/53<br>
-**Implemented by**: Skyler <br>
-**Approved by**: Tyler <be>
-
-**Requirement**: Set up GUI for text <br>
-**Issue**: [Issue #20](https://github.com/NoomMiner/Echoes-of-Time/issues/20)<br>
+**Requirement**: Make the rooms interactable and responsive to change in them.<br>
+**Issue**: [Issue #17](https://github.com/NoomMiner/Echoes-of-Time/issues/12)<br>
+Added Clock:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/44<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Yahir<br>
+Updated Clock (set sprite to autoplay, detect + respond to collision):<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/45<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Yahir<br>
+Added interactive text associated with clock:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/50<br>
 **Implemented by**: Skyler<br>
-**Approved by**: Tyler<be>
+**Approved by**: Tyler<br>
+Added interactions for door and between clock/door:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/53<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Tyler<br>
 
-**Requirement**: Implement the second scene (w/ cake)<br>
-**Issue**: [Issue #22](https://github.com/NoomMiner/Echoes-of-Time/issues/22)<br>
+**Requirement**: Multiple rooms with smooth transitions between them
+Added cake room (including interactive door and cake) and implemented movement between rooms:<br>
+**Issue**: [Issue #18](https://github.com/NoomMiner/Echoes-of-Time/issues/18)<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/54<br>
 **Implemented by**: Skyler<br>
-**Approved by**: Tyler<be>
+**Approved by**: Tyler <br>
+
 
 
 # Tests
