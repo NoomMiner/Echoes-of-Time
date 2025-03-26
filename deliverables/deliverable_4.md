@@ -116,14 +116,14 @@ We have decided to deplot the product on the independent game development platfo
 The licensing we chose to adopt for our source code is the [GNU GPL v3](https://github.com/NoomMiner/Echoes-of-Time/blob/deliverable-4/LICENSE) license because it allows for our creative work to be protected, it ensures our game code can be preserved for the years to come, and it also encourges community collaboration which we find to be something import for this project.
 
 # UX Design
-We wanted the user to understand what keys to press when going over an item or accessing a doorway. To do that we implemented a text box that appears telling the user what button to press and what the action is. We soon plan to implement more features to update the user interface.
+We wanted the user to understand what keys to press when going over an item or accessing a doorway. To do that, we implemented a text box that appears telling the user what button to press and what the action is. We soon plan to implement more features to update the user interface.
 ![Image1](./d4_1.png)
 ![Image2](./d4_2.png)
 ![Image3](./d4_3.png)
 
 
 # Lessons Learned
-Our team learned how to create various objects that are interactable, we learned how to create and design environments in the Godot engine. Our team worked hard throughout the process of creating our first release. Problems that arose during the process were mostly in regards to lack of communication and scheduling difficulties, however, moving forward we are working hard to overcome these difficulties. 
+Our team learned how to create various objects that are interactable and how to create and design environments in the Godot engine. Our team worked hard throughout the process of creating our first release. Problems that arose during the process included lack of communication and scheduling difficulties. Moving forward, we will communicate more frequently and push work to GitHub more often.
 
 # Demo
 [Here](https://drive.google.com/file/d/1xDIINoCwLWYOs4SEFlpelnUAiyvW0-XD/view?usp=drive_link)
