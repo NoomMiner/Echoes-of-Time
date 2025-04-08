@@ -40,19 +40,19 @@ For gamers who enjoy experiencing virtual stories, the adventure game Echoes of 
 <br>    4. The door does nothing.
 
 # Design Patterns
-Our group is working in the GoDot user interface and with GDScript. GoDot is object-oriented by nature, with projects organized as a tree of nodes. However, GoDot and GDScript do not really support the typical manual implementations of object-oriented design patterns like those listed. We did try to find work-arounds, but ran into various problems: C++ can be integrated with GoDot, but only by very experienced GoDot developers; there is no way to directly use pointers and references; and in dividing code into multiple classes, we ended up running into conflicts with the in-built GoDot functions we were using. When we searched for solutions, we tended to get the answer that other methods should be used to achieve the same effect (as I understand it, it is the method, not the effect, that is expected in this assignment.)
+Our group is working in the GoDot user interface and with GDScript. GoDot is object-oriented by nature, with projects organized as a tree of nodes. However, GoDot and GDScript do not really support the typical manual implementations of object-oriented design patterns like those listed. We did try to find work-arounds, but ran into various problems: C++ can be integrated with GoDot, but only by very experienced GoDot developers; there is no way to directly use pointers and references; and in dividing code into multiple classes, we ended up running into conflicts with the in-built GoDot functions we were using. When we searched for solutions, we tended to get the answer that other methods should be used to achieve the same effect (as I understand it, it is the method, not the effect, that is expected in this assignment.)<br>
 
-This is to say: instead, we sketched the design patterns using a combination of C++ syntax and GoDot functions/pseudocode, explaining how they relate to our project and what’s going on behind the scenes.
+This is to say: instead, we sketched the design patterns using a combination of C++ syntax and GoDot functions/pseudocode, explaining how they relate to our project and what’s going on behind the scenes.<br>
 
 ## State Design Pattern
 ![State Design Pattern UML Diagram](StateDP.drawio.png)
-The files associated with this diagram are in the folder: https://github.com/NoomMiner/Echoes-of-Time/tree/main/deliverables/StateDesignPattern
-Specifically, they include the class files Context.cpp, HasClock.cpp, HasKey.cpp, InitialState.cpp, State.cpp, the header file ClassDefinitions.h, and a README which explains how this fits into our project.
+<br>The files associated with this diagram are in the folder: https://github.com/NoomMiner/Echoes-of-<br>Time/tree/main/deliverables/StateDesignPattern
+<br>Specifically, they include the class files Context.cpp, HasClock.cpp, HasKey.cpp, InitialState.cpp, State.cpp, the header <br>file ClassDefinitions.h, and a README which explains how this fits into our project.<br>
 
 ## Composite Design Pattern
 ![Composite Design Pattern UML Diagram](CompositeDP.drawio.png)
-The files associated with this diagram are in the folder: https://github.com/NoomMiner/Echoes-of-Time/tree/main/deliverables/CompositeDesignPattern
-Specifically, they include the class files Node.cpp, Scene.cpp, and someNodeType.cpp, Node.h, and a README which explains how this relates to GoDot.
+<br>The files associated with this diagram are in the folder: https://github.com/NoomMiner/Echoes-of-<br>Time/tree/main/deliverables/CompositeDesignPattern
+<br>Specifically, they include the class files Node.cpp, Scene.cpp, and someNodeType.cpp, Node.h, and a README which explains how this relates to GoDot.<br>
 
 # Design Principles
 ### Single Responsibility Principle:
