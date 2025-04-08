@@ -10,9 +10,34 @@ For gamers who enjoy experiencing virtual stories, the adventure game Echoes of 
 # Sequence Diagrams
 ![Sequence Diagram](UML_Sequence_D5.drawio.png)
 ## Use case 1:
-Player picks up item and the item is added to the inventory
+<br>**Use case: pick up clock**
+<br>**Actor:** the player
+<br>**Trigger:** the player walks over the item.
+<br>**Pre-conditions:** the item is not already picked up.
+<br>**Post-conditions:** the item is added to the inventory
+<br>**Success Scenario:**
+<br>    1. The user walks over the sprite
+<br>    2. The user obtains the clock
+<br>**Alternate Scenario:** N/A
+
+
 ## Use case 2:
-Player uses item to unlock door, completing quest.
+<br>**Use case: unlock door**
+<br>**Actor:** the player.
+<br>**Trigger:** the player presses 'q'.
+<br>**Pre-conditions:** the player is next to the door and has the key.
+<br>**Post-conditions:** the quest is completed and the player moves to the next room.
+<br>**Success Scenario:**
+<br>    1. The user walks over to the door
+<br>    2. A message is sent that the player can use the key by pressing 'q'.
+<br>    3. The user presses 'q'.
+<br>    4. The player receives a notice that the quest is complete.
+<br>    5. The player enters the next room.
+<br>**Alternate Scenario:** N/A
+<br>    1. The user walks over to the door
+<br>    2. A message is sent that door is locked.
+<br>    3. The user presses 'q'.
+<br>    4. The door does nothing.
 
 # Design Patterns
 Our group is working in the GoDot user interface and with GDScript. GoDot is object-oriented by nature, with projects organized as a tree of nodes. However, GoDot and GDScript do not really support the typical manual implementations of object-oriented design patterns like those listed. We did try to find work-arounds, but ran into various problems: C++ can be integrated with GoDot, but only by very experienced GoDot developers; there is no way to directly use pointers and references; and in dividing code into multiple classes, we ended up running into conflicts with the in-built GoDot functions we were using. When we searched for solutions, we tended to get the answer that other methods should be used to achieve the same effect (as I understand it, it is the method, not the effect, that is expected in this assignment.)
