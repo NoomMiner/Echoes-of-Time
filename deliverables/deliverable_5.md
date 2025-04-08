@@ -6,6 +6,11 @@
 ![Class Diagram](UML_Class_D5.png)
 **Note**: Godot base classes are not included in the diagram for readability
 # Sequence Diagrams
+![Sequence Diagram](UML_Sequence_D5.drawio.png)
+## Use case 1:
+Player picks up item and the item is added to the inventory
+## Use case 2:
+Player uses item to unlock door, completing quest.
 
 # Design Patterns
 
