@@ -4,6 +4,7 @@ For gamers who enjoy experiencing virtual stories, the adventure game Echoes of 
 
 # Architecture
 ![Architecture Diagram](Architecture_Diagram_D5.png)
+The Architecture Diagram is designed to represent the relationships between each aspect of the structure itself. It displays how the structure of our game system and each layer interacts with each other. 
 # Class Diagrams
 ![Class Diagram](UML_Class_D5.png)
 **Note**: Godot base classes are not included in the diagram for readability
