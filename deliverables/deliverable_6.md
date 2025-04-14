@@ -11,17 +11,15 @@ Where applicable, we also wrote a note about what aspect of the requirement was 
 Due to this workflow/structure, we cannot order requirements by who implemented them. <br>
 Instead, we are providing a list of requirements and pull requests for each individual 
 in our group:<br><br>
-**Skyler Guard:** fixed collision with walls (#46), implemented interactive clock and door objects (#44, #45, #50, #53), implemented second room and transition (#54), refactored code (#58), made and implemented sprites (#44, #54)<br>
-**Tyler Bryant:** synthesized node tree and movement script (#45), added tests (#56), cleaned up code (#47, #52)<br>
-**Yahir Espinoza:** movement Script (#39), added player camera tracking and updated floor textures (#60).<br>
-**Wil Johnson:** added tileset (#42), added skull and door assets (#59)<br>
+**Skyler Guard:** fixed collision with walls (https://github.com/NoomMiner/Echoes-of-Time/pull/46), implemented interactive clock and door objects (https://github.com/NoomMiner/Echoes-of-Time/pull/44, https://github.com/NoomMiner/Echoes-of-Time/pull/48, https://github.com/NoomMiner/Echoes-of-Time/pull/50, https://github.com/NoomMiner/Echoes-of-Time/pull/53), implemented second room and transition (https://github.com/NoomMiner/Echoes-of-Time/pull/54), reorganization (https://github.com/NoomMiner/Echoes-of-Time/pull/58), made and implemented sprites (https://github.com/NoomMiner/Echoes-of-Time/pull/44, https://github.com/NoomMiner/Echoes-of-Time/pull/54), described manual tests (https://github.com/NoomMiner/Echoes-of-Time/pull/91).<br>
+**Tyler Bryant:** synthesized node tree and movement script (https://github.com/NoomMiner/Echoes-of-Time/pull/45), added unit tests (https://github.com/NoomMiner/Echoes-of-Time/pull/56), updated gitignore (https://github.com/NoomMiner/Echoes-of-Time/pull/47), cleaned repository (https://github.com/NoomMiner/Echoes-of-Time/pull/52), deployed to itch.io.<br>
+**Yahir Espinoza:** added movement Script (https://github.com/NoomMiner/Echoes-of-Time/pull/39), added player camera tracking and floor textures (https://github.com/NoomMiner/Echoes-of-Time/pull/60).<br>
+**Wil Johnson:** added tileset (https://github.com/NoomMiner/Echoes-of-Time/pull/42), added skull and door assets (https://github.com/NoomMiner/Echoes-of-Time/pull/59), created dragon and wall art (https://github.com/NoomMiner/Echoes-of-Time/pull/90).<br>
 <br>
 *TODO LIST:*
-- Double-check pull request numbers above and add links
 - Add pictures
 - Add any more recently implemented requirements
 
-# Requirements: MUST ADD PICTURES
 ## Requirement: Implement a Moveable Character.<br>
 ### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/1<br>
 
@@ -35,13 +33,24 @@ Adjust GoDot node structure and script for compatability:<br>
 **Implemented by**: Tyler<br>
 **Approved by**: Yahir<br>
 
+**Print Screen**: script and node structure
+![Image of script and node sructure](requirementsScreenshots/movementscreenshot.png)
+
 Fixed collision w/ walls:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/46<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler<br>
 
+**Print Screen**: collision polygons<br>
+![Image of collision polygons](requirementsScreenshots/collisionscreenshot.png)
+
+
+**Print Screen**: player in different positions<br>
+![Image of player in game](requirementsScreenshots/eotmovement1.png)
+![Image of player in different position](requirementsScreenshots/eotmovement2.png)
+
 ## Requirement: Make the rooms interactable and responsive to change in them.<br>
-### Issue: [Issue #12](https://github.com/NoomMiner/Echoes-of-Time/issues/12)<br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/12<br>
 
 Added Clock:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/44<br>
@@ -49,7 +58,7 @@ Added Clock:<br>
 **Approved by**: Yahir<br>
 
 Updated Clock (set sprite to autoplay, detect + respond to collision):<br>
-**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/45<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/48<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Yahir<br>
 
@@ -62,33 +71,56 @@ Added interactions for door and between clock/door:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/53<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler<br>
+**Print Screen**: <br>
+<br>Clock in initial state: <br>
+![Image of clock in initial state](requirementsScreenshots/clockIcon.png)
+<br>After clock is picked up: <br>
+![Image of second game state](requirementsScreenshots/clockIcon2.png)
+<br>After clock is used: <br>
+![Image of third game state](requirementsScreenshots/clockIcon3.png)
+
 
 ## Requirement: Multiple rooms with smooth transitions between them (added cake room) <br>
-### Issue: [Issue #18](https://github.com/NoomMiner/Echoes-of-Time/issues/18)<br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/18<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/54<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler <br>
 
 ## Requirement: Add tests<br>
-### Issue: [Issue #63](https://github.com/NoomMiner/Echoes-of-Time/issues/63)<br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/63<br>
+Add movement unit test:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/56<br>
 **Implemented by**: Tyler<br>
 **Approved by**: <br>
 
+Describe manual testing procedure:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/91<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Wil<br>
+<br>
+**Print Screen**: Since the testing procedures do not affect the player experience, 
+and the testing files are described in the next section, no screenshot is given.<br>
+
 ## Requirement: Clean up Code<br>
-### Issue: [Issue #13](https://github.com/NoomMiner/Echoes-of-Time/issues/13)<br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/13<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/47 (add git ignore)<br>
 **Implemented by**: Tyler<br>
 **Approved by**: Yahir <br>
+
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/52 (add git ignore)<br>
 **Implemented by**: Tyler<br>
 **Approved by**: Skyler <br>
+
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/58<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler<br>
 
+<br>
+**Print Screen**: Since the code optimization and refactoring do not affect the player experience, 
+no screenshot is given.<br>
+
 ## Requirement: Stylistic Graphics <br>
-### Issue: [Issue #14](https://github.com/NoomMiner/Echoes-of-Time/issues/14)<br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/14<br>
 
 Added tile files:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/42<br>
@@ -105,23 +137,39 @@ Added & implemented cake sprites:<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler<br>
 
+**Print Screen**: pictures which contained the above graphics were implemented above.
+
 Added player camera tracking and implemented textures to floor:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/60<br>
 **Implemented by**: Yahir<br>
 **Approved by**: Tyler<br>
+**Print Screen**: <br>
+# TODO
 
-Added doors and skull file assets:
+Added doors and skull file assets:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/59<br>
 **Implemented by**: Wil<br>
 **Approved by**: Tyler<br>
+**Print Screen**: <br>
+![Image of skull](../EchoesofTimeGodot/Skull.png)
+![Image of doors](../EchoesofTimeGodot/Doors.png)
+
+Created dragon and wall art:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/90<br>
+**Implemented by**: Wil<br>
+**Approved by**: Wil<br>
+**Print Screen**: <br>
+![Image of dragon sprite, eyes open](../EchoesofTimeGodot/dragon_awake.png)
+![Image of dragon sprite, sleeping](../EchoesofTimeGodot/dragon_sleeping.png)
+![Image of dungeon wall](../EchoesofTimeGodot/dungeon_wall.png)
 
 ## Requirement: Deploy game to itch.io <br>
-### Issue: [Issue #64](https://github.com/NoomMiner/Echoes-of-Time/issues/64)<br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/64<br>
 **Pull request**: N/A <br>
 **Implemented by**: Tyler<br>
 **Approved by**: N/A<br>
-
-Grading criteria (20 points): This section will be evaluated in terms of correctness, completeness, thoroughness, consistency, coherence, adequate use of language, and amount of work put into the implementation. Students can receive different grades depending on their involvement. It is expected that all members contribute with non-trivial implementation. All pull requests should be approved and integrated by the quality assurance person. You should follow an adequate workflow (description of the requirement on the issue tracker, submission of the implemented requirement as a pull request, and review of the pull request by another developer). 
+**Print Screen**: <br>
+#TODO
 
 # Tests
 *Todo list:*
