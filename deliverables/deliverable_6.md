@@ -163,12 +163,27 @@ Communication is key for this project, we have set up our own private team works
 
 
 # Lessons Learned
-In retrospect, describe what your team learned during this second release and what would you change if you would continue developing the project. 
+While developing this release, our team learned about the challenges of maintaining code quality and working together smoothly, 
+especially while balancing this project with other responsibilities as students and adults. <br><br>
 
-*Todo*
-
-Grading criteria (2 points): Adequate reflection about problems and solutions, clear description with adequate use of language.
-
+**On Git and GoDot** <br>
+One problem we had as a group was that initially we didn't use a proper gitignore file. We added one soon after, 
+but removing the files that should never have been tracked in the first place was a challenge. Ultimately, the short-term solution was 
+a long process of removing files, and long-term, the solution is to be strict with git-ignore expectations from the start. <br><br>
+On the other-hand, git-ignore also introduced additional complications. Sometimes, one member of our group would implement a 
+feature and test it before commiting, but when others pulled their work, it wouldn't compile properly. We believe that this was partly due to 
+overlooked changes to ignored files. In hindsight, and moving forward, we believe one solution would be to keep track of what files are 
+being ignored, and have a clear, established procedure for updating certain files (e.g. images) when updating branches. Alternatively, we could 
+pay more attention to automated solutions which integrate with Git.<br><br>
+In addition, the additional abstraction from using GoDot (and its GUI) complicated branching and merging with git. We learned that sometimes it even 
+seems easier to work alone, to avoid the complications associated with teamwork, but our collaboration as a group can play a 
+powerful role in ensuring our program was portable and we didn't overlook something important/a particular edge case. <br><br>
+**Moving forward**<br>
+If we would continue developing this project, we would take it at a slower pace, giving ourselves time to focus on code quality 
+over implementing features within an academic deadline. To ensure better collaboration, we would also set aside more dedicated times for 
+working together and set internal deadlines for specific issues/features. We would also rethink our approach to using Git with GoDot, looking into ways to ensure 
+merges are smoother. We would continue developing features, polishing the story, and refactoring the code until we had a project we were 
+truly proud of. 
 
 *Additional Todos/points lost in D5: Tag the GitHub repository accordingly, update README/CONTRIBUTING files*
 
