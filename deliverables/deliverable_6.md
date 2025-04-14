@@ -1,8 +1,6 @@
 # Introduction
 For gamers who enjoy experiencing virtual stories, the adventure game Echoes of Time provides a brief escape from reality into a new virtual world. Echoes of Time has value in its novelty, giving players the opportunity to experience its story for the first time--unlike other open-source adventure games, which many avid adventure gamers have already played before. The current system, which is implemented in GoDot with the graphical user interface and GDScript, includes a moveable player character in a top-down world implemented with tilesets, three interactive objects (a 'weird clock', a door, and a cake), two rooms that the player can move between, and a simple puzzle. With this we're using the stylistic assets developed by our artist, Wil.
 
-*TODO LIST: update to match final product*
-
 # Requirements
 **Note: in our group, the workflow often involved incrementally developing features with multiple people contributing to each individual requirement/issue.
 To reflect this, the format of this section has been adjusted so that multiple pull requests are associated with each requirement.
@@ -86,7 +84,7 @@ Added interactions for door and between clock/door:<br>
 <br>Prompt to eat the cake: <br>
 ![Eat the cake](requirementsScreenshots/eatcake.png)
 <br>Final screen: <br>
-![Yum](requirementsScreenshots/YumScreenshot.png)
+![Yum](requirementsScreenshots/Yumscreenshot.png)
 
 ## Requirement: Add tests<br>
 ### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/63<br>
@@ -146,25 +144,25 @@ Added player camera tracking and implemented textures to floor:<br>
 **Implemented by**: Yahir<br>
 **Approved by**: Tyler<br>
 **Print Screen**: <br>
-<br>Prompt to eat the cake: <br>
-![Eat the cake](requirementsScreenshots/eatcake.png)
+![Locked door](requirementsScreenshots/lockedDoor.png)
+![Player is in bottom left corner](requirementsScreenshots/inFirstRoom.png)
 
 Added doors and skull file assets:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/59<br>
 **Implemented by**: Wil<br>
 **Approved by**: Tyler<br>
 **Print Screen**: <br>
-![Locked door](../EchoesofTimeGodot/lockedDoor.png)
-![Player is in bottom left corner](../EchoesofTimeGodot/inFirstRoom.png)
+![Image of skull](../Skull.png)
+![Image of doors](../Doors.png)
 
 Created dragon and wall art:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/90<br>
 **Implemented by**: Wil<br>
 **Approved by**: Wil<br>
 **Print Screen**: <br>
-![Image of dragon sprite, eyes open](../EchoesofTimeGodot/dragon_awake.png)
-![Image of dragon sprite, sleeping](../EchoesofTimeGodot/dragon_sleeping.png)
-![Image of dungeon wall](../EchoesofTimeGodot/dungeon_wall.png)
+![Image of dragon sprite, eyes open](../dragon_awake.png)
+![Image of dragon sprite, sleeping](../dragon_sleeping.png)
+![Image of dungeon wall](../dungeon_wall.png)
 
 ## Requirement: Deploy game to itch.io <br>
 ### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/64<br>
@@ -184,9 +182,6 @@ Created dragon and wall art:<br>
 
 
 # Tests
-*Todo list:*
-- Add additional automated tests
-
 The testing framework used was GUT (Godot Unit Testing). The test scripts can be viewed [here](../EchoesofTimeGodot/test/unit). <br>
 In addition, since our project is a video game with complex and frequent user interaction, we outlined a process for manual testing [here](EchoesofTimeGodot/test/manual_tests.md).<br>
 ## Example test
@@ -231,6 +226,3 @@ over implementing features within an academic deadline. To ensure better collabo
 working together and set internal deadlines for specific issues/features. We would also rethink our approach to using Git with GoDot, looking into ways to ensure 
 merges are smoother. We would continue developing features, polishing the story, and refactoring the code until we had a project we were 
 truly proud of. 
-
-*Additional Todos/points lost in D5: Tag the GitHub repository accordingly, update README/CONTRIBUTING files*
-
