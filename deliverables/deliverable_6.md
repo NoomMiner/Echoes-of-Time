@@ -1,40 +1,155 @@
 # Introduction
 For gamers who enjoy experiencing virtual stories, the adventure game Echoes of Time provides a brief escape from reality into a new virtual world. Echoes of Time has value in its novelty, giving players the opportunity to experience its story for the first time--unlike other open-source adventure games, which many avid adventure gamers have already played before. The current system, which is implemented in GoDot with the graphical user interface and GDScript, includes a moveable player character in a top-down world implemented with tilesets, three interactive objects (a 'weird clock', a door, and a cake), two rooms that the player can move between, and a simple puzzle. With this we're using the stylistic assets developed by our artist, Wil.
 
+*TODO LIST: update to match final product*
+
 # Requirements
-List in this section, the requirements and associated pull request that you implemented for this release, following the example below---include the description of the requirement, a link to the issue,  a link to the pull request(s) that implement the requirement, who implemented the requirement, who approved it, and a print screen that depicts the implemented feature (if applicable). Order the requirements by the name of the student who implemented them.
+**Note: in our group, the workflow often involved incrementally developing features with multiple people contributing to each individual requirement/issue.
+To reflect this, the format of this section has been adjusted so multiple pull requests (and implementors/approvers) are associated with each requirement.
+Where applicable, we also wrote a note about what aspect of the requirement was implemented above each pull request.**
 
-We expect that you implement/prototype the features you specified in your MVP (c.f. D.2 Requirements). We expect that all the members of the group have been involved in some programming activities and report here several pull requests. 
+*TODO LIST:*
+- Order requirements by student who implemented it?
+- Add pictures
+- Add any more recently implemented requirements
 
-Example:
+# Requirements: MUST ADD PICTURES
+## Requirement: Implement a Moveable Character.<br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/1<br>
 
-Requirement: As a Student, I want to add a homework assignment so that I can organize my ToDo list.
-Issue: <link to your GitHub issue>
-Pull request: https://github.com/user/project/pull/426
-Implemented by: Martin Fowler
-Approved by: Ada Lovelace
-Print screen: A print screen that depicts the implemented feature (if applicable)
+Script for movement:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/39<br>
+**Implemented by**: Yahir<br>
+**Approved by**: Tyler<br>
 
-Remember that all source code should be submitted by means of pull requests and t#he quality assurance person in the team should review and approve each pull request. For more information about pull requests:
-https://help.github.com/articles/about-pull-requests  
+Adjust GoDot node structure and script for compatability:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/45<br>
+**Implemented by**: Tyler<br>
+**Approved by**: Yahir<br>
+
+Fixed collision w/ walls:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/46<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Tyler<br>
+
+## Requirement: Make the rooms interactable and responsive to change in them.<br>
+### Issue: [Issue #12](https://github.com/NoomMiner/Echoes-of-Time/issues/12)<br>
+
+Added Clock:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/44<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Yahir<br>
+
+Updated Clock (set sprite to autoplay, detect + respond to collision):<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/45<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Yahir<br>
+
+Added interactive text associated with clock:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/50<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Tyler<br>
+
+Added interactions for door and between clock/door:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/53<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Tyler<br>
+
+## Requirement: Multiple rooms with smooth transitions between them (added cake room) <br>
+### Issue: [Issue #18](https://github.com/NoomMiner/Echoes-of-Time/issues/18)<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/54<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Tyler <br>
+
+## Requirement: Add tests<br>
+### Issue: [Issue #63](https://github.com/NoomMiner/Echoes-of-Time/issues/63)<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/56<br>
+**Implemented by**: Tyler<br>
+**Approved by**: <br>
+
+## Requirement: Clean up Code<br>
+### Issue: [Issue #13](https://github.com/NoomMiner/Echoes-of-Time/issues/13)<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/47 (add git ignore)<br>
+**Implemented by**: Tyler<br>
+**Approved by**: Yahir <br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/52 (add git ignore)<br>
+**Implemented by**: Tyler<br>
+**Approved by**: Skyler <br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/58<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Tyler<br>
+
+## Requirement: Stylistic Graphics <br>
+### Issue: [Issue #14](https://github.com/NoomMiner/Echoes-of-Time/issues/14)<br>
+
+Added tile files:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/42<br>
+**Implemented by**: Wil<br>
+**Approved by**: Yahir<br>
+
+Added clock animation:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/44<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Yahir<br>
+
+Added & implemented cake sprites:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/54<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Tyler<br>
+
+Added player camera tracking and implemented textures to floor:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/60<br>
+**Implemented by**: Yahir<br>
+**Approved by**: Tyler<br>
+
+Added doors and skull file assets:
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/59<br>
+**Implemented by**: Wil<br>
+**Approved by**: Tyler<br>
+
+## Requirement: Deploy game to itch.io <br>
+### Issue: [Issue #64](https://github.com/NoomMiner/Echoes-of-Time/issues/64)<br>
+**Pull request**: N/A <br>
+**Implemented by**: Tyler<br>
+**Approved by**: N/A<br>
 
 Grading criteria (20 points): This section will be evaluated in terms of correctness, completeness, thoroughness, consistency, coherence, adequate use of language, and amount of work put into the implementation. Students can receive different grades depending on their involvement. It is expected that all members contribute with non-trivial implementation. All pull requests should be approved and integrated by the quality assurance person. You should follow an adequate workflow (description of the requirement on the issue tracker, submission of the implemented requirement as a pull request, and review of the pull request by another developer). 
 
 # Tests
-You should implement automated tests for the features described in the previous subsection. Provide the following information:
+*You should implement automated tests for the features described in the previous subsection. Provide the following information:
 
 Test framework you used to develop your tests (e.g., JUnit, unittest, pytest, etc.)
 Link to your GitHub folder where your automated unit tests are located.
 An example of a test case. Include in your answer a GitHub link to the class being tested and to the test.
 A print screen showing the result of the automated tests execution. 
-Grading criteria (3 points): You should have an adequate number of automated tests. They should be well written and match the features implemented in the aforementioned pull requests.
+Grading criteria (3 points): You should have an adequate number of automated tests. They should be well written and match the features implemented in the aforementioned pull requests.*
 
-Demo
+*Todo list:*
+- Add tests for any more recent features
+- Describe non-automated tests
+
+The testing framework used was GUT (Godot Unit Testing). The test scripts can be viewed [Here](../EchoesofTimeGodot/test/unit).
+## Example test
+- Class Tested: [player.tscn](../EchoesofTimeGodot/player.tscn)
+- Script: [test_movement.gd](../EchoesofTimeGodot/test/unit/test_movement.gd) <br>
+
+This test ensured that the correct velocity was applied to the character depending on the direction pressed.
+![Test Image](./unit_test_output.png)
+
+
+
+# Demo
 Include a link to a video showing the system working.
+
+*ToDo list:*
+Update video - add voice-over
 
 Grading criteria (10 points): This section will be graded based on the quality of the video and on the evidence that the features are running as expected. Additional criteria are the relevance of the demonstrated functionalities, the correctness of the functionalities, and quality of the developed system from the external point of view (user interface).
 
 # Code quality
+
+*Todo: potentially add more detail*
+
 ### 1\. Version Control
   We used git for version control with our repository hosted on GitHub
 ### 2\. Collaboration
@@ -50,5 +165,10 @@ Communication is key for this project, we have set up our own private team works
 # Lessons Learned
 In retrospect, describe what your team learned during this second release and what would you change if you would continue developing the project. 
 
+*Todo*
+
 Grading criteria (2 points): Adequate reflection about problems and solutions, clear description with adequate use of language.
+
+
+*Additional Todos/points lost in D5: Tag the GitHub repository accordingly, update README/CONTRIBUTING files*
 
