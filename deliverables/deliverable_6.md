@@ -16,9 +16,6 @@ in our group:<br><br>
 **Yahir Espinoza:** added movement Script (https://github.com/NoomMiner/Echoes-of-Time/pull/39), added player camera tracking and floor textures (https://github.com/NoomMiner/Echoes-of-Time/pull/60).<br>
 **Wil Johnson:** added tileset (https://github.com/NoomMiner/Echoes-of-Time/pull/42), added skull and door assets (https://github.com/NoomMiner/Echoes-of-Time/pull/59), created dragon and wall art (https://github.com/NoomMiner/Echoes-of-Time/pull/90).<br>
 <br>
-*TODO LIST:*
-- Add pictures
-- Add any more recently implemented requirements
 
 ## Requirement: Implement a Moveable Character.<br>
 ### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/1<br>
@@ -85,6 +82,11 @@ Added interactions for door and between clock/door:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/54<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler <br>
+**Print Screen**: <br>
+<br>Prompt to eat the cake: <br>
+![Eat the cake](requirementsScreenshots/eatcake.png)
+<br>Final screen: <br>
+![Yum](requirementsScreenshots/YumScreenshot.png)
 
 ## Requirement: Add tests<br>
 ### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/63<br>
@@ -144,15 +146,16 @@ Added player camera tracking and implemented textures to floor:<br>
 **Implemented by**: Yahir<br>
 **Approved by**: Tyler<br>
 **Print Screen**: <br>
-# TODO
+<br>Prompt to eat the cake: <br>
+![Eat the cake](requirementsScreenshots/eatcake.png)
 
 Added doors and skull file assets:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/59<br>
 **Implemented by**: Wil<br>
 **Approved by**: Tyler<br>
 **Print Screen**: <br>
-![Image of skull](../EchoesofTimeGodot/Skull.png)
-![Image of doors](../EchoesofTimeGodot/Doors.png)
+![Locked door](../EchoesofTimeGodot/lockedDoor.png)
+![Player is in bottom left corner](../EchoesofTimeGodot/inFirstRoom.png)
 
 Created dragon and wall art:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/90<br>
@@ -169,7 +172,16 @@ Created dragon and wall art:<br>
 **Implemented by**: Tyler<br>
 **Approved by**: N/A<br>
 **Print Screen**: <br>
-#TODO
+![Image of game download screen on itch.io.](requirementsScreenshots/itchioscreenshot.png)
+
+## Requirement: Add Menu <br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/96<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/93<br>
+**Implemented by**: Tyler<br>
+**Approved by**: Tyler<br>
+**Print Screen**: <br>
+![Image of game download screen on itch.io.](requirementsScreenshots/StartingMenu.png)
+
 
 # Tests
 *Todo list:*
@@ -185,12 +197,8 @@ This test ensured that the correct velocity was applied to the character dependi
 ![Test Image](./unit_test_output.png)
 
 # Demo
-Include a link to a video showing the system working.
-
-*ToDo list:*
-Update video - add voice-over
-
-Grading criteria (10 points): This section will be graded based on the quality of the video and on the evidence that the features are running as expected. Additional criteria are the relevance of the demonstrated functionalities, the correctness of the functionalities, and quality of the developed system from the external point of view (user interface).
+- [Link to itch.io](https://noomminer.itch.io/echoes-of-time) <br>
+We have decided to deplot the product on the independent game development platform itch.io. We chose itch.io because it is a very popular platform for inde game developers who are looking to get a start. We will deploy by creating a page for the project on itch.io and uploading an executable.
 
 # Code quality
 In order to manage code quality, each developer adhered to our group expectations for testing and integrating code, knowing and following best practices, and communicating with the group.
