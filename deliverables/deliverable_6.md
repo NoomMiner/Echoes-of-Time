@@ -20,7 +20,6 @@ in our group:<br><br>
 - Add pictures
 - Add any more recently implemented requirements
 
-# Requirements: MUST ADD PICTURES
 ## Requirement: Implement a Moveable Character.<br>
 ### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/1<br>
 
@@ -40,7 +39,7 @@ Fixed collision w/ walls:<br>
 **Approved by**: Tyler<br>
 
 ## Requirement: Make the rooms interactable and responsive to change in them.<br>
-### Issue: [Issue #12](https://github.com/NoomMiner/Echoes-of-Time/issues/12)<br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/12<br>
 
 Added Clock:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/44<br>
@@ -63,13 +62,13 @@ Added interactions for door and between clock/door:<br>
 **Approved by**: Tyler<br>
 
 ## Requirement: Multiple rooms with smooth transitions between them (added cake room) <br>
-### Issue: [Issue #18](https://github.com/NoomMiner/Echoes-of-Time/issues/18)<br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/18<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/54<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler <br>
 
 ## Requirement: Add tests<br>
-### Issue: [Issue #63](https://github.com/NoomMiner/Echoes-of-Time/issues/63)<br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/63<br>
 Add movement unit test:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/56<br>
 **Implemented by**: Tyler<br>
@@ -81,7 +80,7 @@ Describe manual testing procedure:<br>
 **Approved by**: Wil<br>
 
 ## Requirement: Clean up Code<br>
-### Issue: [Issue #13](https://github.com/NoomMiner/Echoes-of-Time/issues/13)<br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/13<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/47 (add git ignore)<br>
 **Implemented by**: Tyler<br>
 **Approved by**: Yahir <br>
@@ -93,7 +92,7 @@ Describe manual testing procedure:<br>
 **Approved by**: Tyler<br>
 
 ## Requirement: Stylistic Graphics <br>
-### Issue: [Issue #14](https://github.com/NoomMiner/Echoes-of-Time/issues/14)<br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/14<br>
 
 Added tile files:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/42<br>
@@ -126,7 +125,7 @@ Created dragon and wall art:<br>
 **Approved by**: Wil<br>
 
 ## Requirement: Deploy game to itch.io <br>
-### Issue: [Issue #64](https://github.com/NoomMiner/Echoes-of-Time/issues/64)<br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/64<br>
 **Pull request**: N/A <br>
 **Implemented by**: Tyler<br>
 **Approved by**: N/A<br>
