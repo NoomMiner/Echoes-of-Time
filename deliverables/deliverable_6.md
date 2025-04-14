@@ -1,8 +1,6 @@
 # Introduction
 For gamers who enjoy experiencing virtual stories, the adventure game Echoes of Time provides a brief escape from reality into a new virtual world. Echoes of Time has value in its novelty, giving players the opportunity to experience its story for the first time--unlike other open-source adventure games, which many avid adventure gamers have already played before. The current system, which is implemented in GoDot with the graphical user interface and GDScript, includes a moveable player character in a top-down world implemented with tilesets, three interactive objects (a 'weird clock', a door, and a cake), two rooms that the player can move between, and a simple puzzle. With this we're using the stylistic assets developed by our artist, Wil.
 
-*TODO LIST: update to match final product*
-
 # Requirements
 **Note: in our group, the workflow often involved incrementally developing features with multiple people contributing to each individual requirement/issue.
 To reflect this, the format of this section has been adjusted so that multiple pull requests are associated with each requirement.
@@ -16,9 +14,6 @@ in our group:<br><br>
 **Yahir Espinoza:** added movement Script (https://github.com/NoomMiner/Echoes-of-Time/pull/39), added player camera tracking and floor textures (https://github.com/NoomMiner/Echoes-of-Time/pull/60).<br>
 **Wil Johnson:** added tileset (https://github.com/NoomMiner/Echoes-of-Time/pull/42), added skull and door assets (https://github.com/NoomMiner/Echoes-of-Time/pull/59), created dragon and wall art (https://github.com/NoomMiner/Echoes-of-Time/pull/90).<br>
 <br>
-*TODO LIST:*
-- Add pictures
-- Add any more recently implemented requirements
 
 ## Requirement: Implement a Moveable Character.<br>
 ### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/1<br>
@@ -85,6 +80,11 @@ Added interactions for door and between clock/door:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/54<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler <br>
+**Print Screen**: <br>
+<br>Prompt to eat the cake: <br>
+![Eat the cake](requirementsScreenshots/eatcake.png)
+<br>Final screen: <br>
+![Yum](requirementsScreenshots/Yumscreenshot.png)
 
 ## Requirement: Add tests<br>
 ### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/63<br>
@@ -144,24 +144,25 @@ Added player camera tracking and implemented textures to floor:<br>
 **Implemented by**: Yahir<br>
 **Approved by**: Tyler<br>
 **Print Screen**: <br>
-# TODO
+![Locked door](requirementsScreenshots/lockedDoor.png)
+![Player is in bottom left corner](requirementsScreenshots/inFirstRoom.png)
 
 Added doors and skull file assets:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/59<br>
 **Implemented by**: Wil<br>
 **Approved by**: Tyler<br>
 **Print Screen**: <br>
-![Image of skull](../EchoesofTimeGodot/Skull.png)
-![Image of doors](../EchoesofTimeGodot/Doors.png)
+![Image of skull](../Skull.png)
+![Image of doors](../Doors.png)
 
 Created dragon and wall art:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/90<br>
 **Implemented by**: Wil<br>
 **Approved by**: Wil<br>
 **Print Screen**: <br>
-![Image of dragon sprite, eyes open](../EchoesofTimeGodot/dragon_awake.png)
-![Image of dragon sprite, sleeping](../EchoesofTimeGodot/dragon_sleeping.png)
-![Image of dungeon wall](../EchoesofTimeGodot/dungeon_wall.png)
+![Image of dragon sprite, eyes open](../dragon_awake.png)
+![Image of dragon sprite, sleeping](../dragon_sleeping.png)
+![Image of dungeon wall](../dungeon_wall.png)
 
 ## Requirement: Deploy game to itch.io <br>
 ### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/64<br>
@@ -169,12 +170,18 @@ Created dragon and wall art:<br>
 **Implemented by**: Tyler<br>
 **Approved by**: N/A<br>
 **Print Screen**: <br>
-#TODO
+![Image of game download screen on itch.io.](requirementsScreenshots/itchioscreenshot.png)
+
+## Requirement: Add Menu <br>
+### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/96<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/93<br>
+**Implemented by**: Tyler<br>
+**Approved by**: Tyler<br>
+**Print Screen**: <br>
+![Image of game download screen on itch.io.](requirementsScreenshots/StartingMenu.png)
+
 
 # Tests
-*Todo list:*
-- Add additional automated tests
-
 The testing framework used was GUT (Godot Unit Testing). The test scripts can be viewed [here](../EchoesofTimeGodot/test/unit). <br>
 In addition, since our project is a video game with complex and frequent user interaction, we outlined a process for manual testing [here](EchoesofTimeGodot/test/manual_tests.md).<br>
 ## Example test
@@ -185,12 +192,8 @@ This test ensured that the correct velocity was applied to the character dependi
 ![Test Image](./unit_test_output.png)
 
 # Demo
-Include a link to a video showing the system working.
-
-*ToDo list:*
-Update video - add voice-over
-
-Grading criteria (10 points): This section will be graded based on the quality of the video and on the evidence that the features are running as expected. Additional criteria are the relevance of the demonstrated functionalities, the correctness of the functionalities, and quality of the developed system from the external point of view (user interface).
+- [Link to itch.io](https://noomminer.itch.io/echoes-of-time) <br>
+We have decided to deplot the product on the independent game development platform itch.io. We chose itch.io because it is a very popular platform for inde game developers who are looking to get a start. We will deploy by creating a page for the project on itch.io and uploading an executable.
 
 # Code quality
 In order to manage code quality, each developer adhered to our group expectations for testing and integrating code, knowing and following best practices, and communicating with the group.
@@ -223,6 +226,3 @@ over implementing features within an academic deadline. To ensure better collabo
 working together and set internal deadlines for specific issues/features. We would also rethink our approach to using Git with GoDot, looking into ways to ensure 
 merges are smoother. We would continue developing features, polishing the story, and refactoring the code until we had a project we were 
 truly proud of. 
-
-*Additional Todos/points lost in D5: Tag the GitHub repository accordingly, update README/CONTRIBUTING files*
-
