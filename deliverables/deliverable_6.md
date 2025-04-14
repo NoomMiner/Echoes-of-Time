@@ -145,20 +145,13 @@ Update video - add voice-over
 Grading criteria (10 points): This section will be graded based on the quality of the video and on the evidence that the features are running as expected. Additional criteria are the relevance of the demonstrated functionalities, the correctness of the functionalities, and quality of the developed system from the external point of view (user interface).
 
 # Code quality
+In order to manage code quality, each developer adhered to our group expectations for testing and integrating code, knowing and following best practices, and communicating with the group.
 
-*Todo: potentially add more detail*
-
-### 1\. Version Control
-  We used git for version control with our repository hosted on GitHub
-### 2\. Collaboration
-Each team member worked on a separate branch for new features, fulfilling any open issues
-### 3\. Modular code
-Created scripts that could be used in multiple places throughout the project. For example, interact script used for doors, items, and speaking with NPC’s
-### 4\. Code testing and debugging
-We created test scenes/scripts to verify and isolate specific components before implementing them fully.
-### 5\. Communication
-Communication is key for this project, we have set up our own private team workspace on Discord where we share ideas and help each other implement new features
-
+1. **Version Control:** Our group used git for version control and to ensure each change was clearly logged and undoable. For each deliverable, our group added a new branch to develop the deliverable. Each additional feature and bug fix was its own pull request, so our developers could hold each other accountable and ensure a clear and consistent procedure for integrating updates.
+2. **Communication:** Throughout the planning and development process, our group communicated with each other on a private Discord server. We used this server to discuss potential designs and features, give each other advice for issues that arose in implementation, and discuss questions about code expectations and quality trade-offs as a group. This aspect of our culture as a team allowed us to collaborate more smoothly and effectively, and minimize conflicts where multiple people worked on the same aspect of the project at the same time.
+3. **Code testing:** While unit tests were developed and used in this project, due to the nature of video games, the primary way we ensured our project was adequately tested and functional was through consistent and thorough manual testing. Each developer tested the project as a player before commiting, making a pull request, or merging a pull request into a branch higher up in the git hierarchy.
+4. **Best practices:** Each developer familiarized themself with the [best practices for GoDot development outlined in the official GoDot docs](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html). For scripts, we followed the official [GDScript style guide](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html). 
+5. **General code quality:**  In addition to the GoDot-specific best practices, each developer aimed for generally well-written code: well-named variables, methods, and nodes, sufficient structure and comments to ensure human-readability, minimal coupling, etc. In each development phase, we would take additional time to go back over previously written code and refactor it to improve and maintain code quality throughout the project.
 
 # Lessons Learned
 While developing this release, our team learned about the challenges of maintaining code quality and working together smoothly, 
