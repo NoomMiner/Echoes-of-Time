@@ -11,13 +11,12 @@ Where applicable, we also wrote a note about what aspect of the requirement was 
 Due to this workflow/structure, we cannot order requirements by who implemented them. <br>
 Instead, we are providing a list of requirements and pull requests for each individual 
 in our group:<br><br>
-**Skyler Guard:** fixed collision with walls (#46), implemented interactive clock and door objects (#44, #45, #50, #53), implemented second room and transition (#54), refactored code (#58), made and implemented sprites (#44, #54)<br>
-**Tyler Bryant:** synthesized node tree and movement script (#45), added tests (#56), cleaned up code (#47, #52)<br>
-**Yahir Espinoza:** movement Script (#39), added player camera tracking and updated floor textures (#60).<br>
-**Wil Johnson:** added tileset (#42), added skull and door assets (#59)<br>
+**Skyler Guard:** fixed collision with walls (https://github.com/NoomMiner/Echoes-of-Time/pull/46), implemented interactive clock and door objects (https://github.com/NoomMiner/Echoes-of-Time/pull/44, https://github.com/NoomMiner/Echoes-of-Time/pull/48, https://github.com/NoomMiner/Echoes-of-Time/pull/50, https://github.com/NoomMiner/Echoes-of-Time/pull/53), implemented second room and transition (https://github.com/NoomMiner/Echoes-of-Time/pull/54), reorganization (https://github.com/NoomMiner/Echoes-of-Time/pull/58), made and implemented sprites (https://github.com/NoomMiner/Echoes-of-Time/pull/44, https://github.com/NoomMiner/Echoes-of-Time/pull/54), described manual tests (https://github.com/NoomMiner/Echoes-of-Time/pull/91).<br>
+**Tyler Bryant:** synthesized node tree and movement script (https://github.com/NoomMiner/Echoes-of-Time/pull/45), added unit tests (https://github.com/NoomMiner/Echoes-of-Time/pull/56), updated gitignore (https://github.com/NoomMiner/Echoes-of-Time/pull/47), cleaned repository (https://github.com/NoomMiner/Echoes-of-Time/pull/52), deployed to itch.io.<br>
+**Yahir Espinoza:** added movement Script (https://github.com/NoomMiner/Echoes-of-Time/pull/39), added player camera tracking and floor textures (https://github.com/NoomMiner/Echoes-of-Time/pull/60).<br>
+**Wil Johnson:** added tileset (https://github.com/NoomMiner/Echoes-of-Time/pull/42), added skull and door assets (https://github.com/NoomMiner/Echoes-of-Time/pull/59), created dragon and wall art (https://github.com/NoomMiner/Echoes-of-Time/pull/90).<br>
 <br>
 *TODO LIST:*
-- Double-check pull request numbers above and add links
 - Add pictures
 - Add any more recently implemented requirements
 
@@ -49,7 +48,7 @@ Added Clock:<br>
 **Approved by**: Yahir<br>
 
 Updated Clock (set sprite to autoplay, detect + respond to collision):<br>
-**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/45<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/48<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Yahir<br>
 
@@ -71,9 +70,15 @@ Added interactions for door and between clock/door:<br>
 
 ## Requirement: Add tests<br>
 ### Issue: [Issue #63](https://github.com/NoomMiner/Echoes-of-Time/issues/63)<br>
+Add movement unit test:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/56<br>
 **Implemented by**: Tyler<br>
 **Approved by**: <br>
+
+Describe manual testing procedure:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/91<br>
+**Implemented by**: Skyler<br>
+**Approved by**: Wil<br>
 
 ## Requirement: Clean up Code<br>
 ### Issue: [Issue #13](https://github.com/NoomMiner/Echoes-of-Time/issues/13)<br>
@@ -110,10 +115,15 @@ Added player camera tracking and implemented textures to floor:<br>
 **Implemented by**: Yahir<br>
 **Approved by**: Tyler<br>
 
-Added doors and skull file assets:
+Added doors and skull file assets:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/59<br>
 **Implemented by**: Wil<br>
 **Approved by**: Tyler<br>
+
+Created dragon and wall art:<br>
+**Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/90<br>
+**Implemented by**: Wil<br>
+**Approved by**: Wil<br>
 
 ## Requirement: Deploy game to itch.io <br>
 ### Issue: [Issue #64](https://github.com/NoomMiner/Echoes-of-Time/issues/64)<br>
