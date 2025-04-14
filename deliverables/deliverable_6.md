@@ -5,11 +5,19 @@ For gamers who enjoy experiencing virtual stories, the adventure game Echoes of 
 
 # Requirements
 **Note: in our group, the workflow often involved incrementally developing features with multiple people contributing to each individual requirement/issue.
-To reflect this, the format of this section has been adjusted so multiple pull requests (and implementors/approvers) are associated with each requirement.
+To reflect this, the format of this section has been adjusted so that multiple pull requests are associated with each requirement.
 Where applicable, we also wrote a note about what aspect of the requirement was implemented above each pull request.**
 
+Due to this workflow/structure, we cannot order requirements by who implemented them. <br>
+Instead, we are providing a list of requirements and pull requests for each individual 
+in our group:<br><br>
+**Skyler Guard:** fixed collision with walls (#46), implemented interactive clock and door objects (#44, #45, #50, #53), implemented second room and transition (#54), refactored code (#58), made and implemented sprites (#44, #54)<br>
+**Tyler Bryant:** synthesized node tree and movement script (#45), added tests (#56), cleaned up code (#47, #52)<br>
+**Yahir Espinoza:** movement Script (#39), added player camera tracking and updated floor textures (#60).<br>
+**Wil Johnson:** added tileset (#42), added skull and door assets (#59)<br>
+<br>
 *TODO LIST:*
-- Order requirements by student who implemented it?
+- Double-check pull request numbers above and add links
 - Add pictures
 - Add any more recently implemented requirements
 
