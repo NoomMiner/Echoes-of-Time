@@ -192,8 +192,7 @@ This test ensured that the correct velocity was applied to the character dependi
 ![Test Image](./unit_test_output.png)
 
 # Demo
-- [Link to itch.io](https://noomminer.itch.io/echoes-of-time) <br>
-We have decided to deplot the product on the independent game development platform itch.io. We chose itch.io because it is a very popular platform for inde game developers who are looking to get a start. We will deploy by creating a page for the project on itch.io and uploading an executable.
+![Demo Video](./demo_2.mp4) <br>
 
 # Code quality
 In order to manage code quality, each developer adhered to our group expectations for testing and integrating code, knowing and following best practices, and communicating with the group.
