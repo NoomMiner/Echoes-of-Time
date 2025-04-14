@@ -124,27 +124,17 @@ Added doors and skull file assets:
 Grading criteria (20 points): This section will be evaluated in terms of correctness, completeness, thoroughness, consistency, coherence, adequate use of language, and amount of work put into the implementation. Students can receive different grades depending on their involvement. It is expected that all members contribute with non-trivial implementation. All pull requests should be approved and integrated by the quality assurance person. You should follow an adequate workflow (description of the requirement on the issue tracker, submission of the implemented requirement as a pull request, and review of the pull request by another developer). 
 
 # Tests
-*You should implement automated tests for the features described in the previous subsection. Provide the following information:
-
-Test framework you used to develop your tests (e.g., JUnit, unittest, pytest, etc.)
-Link to your GitHub folder where your automated unit tests are located.
-An example of a test case. Include in your answer a GitHub link to the class being tested and to the test.
-A print screen showing the result of the automated tests execution. 
-Grading criteria (3 points): You should have an adequate number of automated tests. They should be well written and match the features implemented in the aforementioned pull requests.*
-
 *Todo list:*
-- Add tests for any more recent features
-- Describe non-automated tests
+- Add additional automated tests
 
-The testing framework used was GUT (Godot Unit Testing). The test scripts can be viewed [Here](../EchoesofTimeGodot/test/unit).
+The testing framework used was GUT (Godot Unit Testing). The test scripts can be viewed [here](../EchoesofTimeGodot/test/unit). <br>
+In addition, since our project is a video game with complex and frequent user interaction, we outlined a process for manual testing [here](EchoesofTimeGodot/test/manual_tests.md).<br>
 ## Example test
 - Class Tested: [player.tscn](../EchoesofTimeGodot/player.tscn)
 - Script: [test_movement.gd](../EchoesofTimeGodot/test/unit/test_movement.gd) <br>
 
 This test ensured that the correct velocity was applied to the character depending on the direction pressed.
 ![Test Image](./unit_test_output.png)
-
-
 
 # Demo
 Include a link to a video showing the system working.
