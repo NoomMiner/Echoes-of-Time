@@ -1,18 +1,17 @@
 [gd_scene load_steps=53 format=4 uid="uid://besgwy1ytubnd"]
 
-[ext_resource type="Texture2D" uid="uid://bctjydwfk6f57" path="res://tiles.png" id="1_7dapk"]
-
+[ext_resource type="Texture2D" uid="uid://dt2ggtcg6m0jq" path="res://tiles.png" id="1_7dapk"]
 [ext_resource type="Script" path="res://mainnode.gd" id="1_va0ri"]
-[ext_resource type="Texture2D" uid="uid://0dhx8p18ukvn" path="res://player.png" id="2_5s8xy"]
+[ext_resource type="Texture2D" uid="uid://xysp021cbaae" path="res://player.png" id="2_5s8xy"]
 [ext_resource type="Script" path="res://character_body_2d.gd" id="2_7elwf"]
-[ext_resource type="Texture2D" uid="uid://bksbsmaf4m4p0" path="res://WilAssets/Center Tile.png" id="3_ogmli"]
+[ext_resource type="Texture2D" uid="uid://pmxoadskr4s3" path="res://WilAssets/Center Tile.png" id="3_ogmli"]
 [ext_resource type="Script" path="res://door.gd" id="4_3ovga"]
-[ext_resource type="Texture2D" uid="uid://cey0ochxewb5v" path="res://WilAssets/Corner Tile.png" id="4_6dvnp"]
+[ext_resource type="Texture2D" uid="uid://ch8t3dl8o5s7v" path="res://WilAssets/Corner Tile.png" id="4_6dvnp"]
 [ext_resource type="PackedScene" uid="uid://b3c7jxuqmyv4k" path="res://clock.tscn" id="4_iio4l"]
-[ext_resource type="Texture2D" uid="uid://cmlkwlvkpyj8e" path="res://WilAssets/Cracked Tile 1.png" id="5_sk8ja"]
+[ext_resource type="Texture2D" uid="uid://c0hls04sbppuu" path="res://WilAssets/Cracked Tile 1.png" id="5_sk8ja"]
 [ext_resource type="Script" path="res://rich_text_label.gd" id="6_c2vwy"]
-[ext_resource type="Texture2D" uid="uid://dksefsim8wbip" path="res://WilAssets/Cracked Tile 2.png" id="6_tjrfw"]
-[ext_resource type="Texture2D" uid="uid://8am5wtmiyk40" path="res://WilAssets/Uncracked Edge Tile.png" id="7_jvc4u"]
+[ext_resource type="Texture2D" uid="uid://dw85aodvuqclr" path="res://WilAssets/Cracked Tile 2.png" id="6_tjrfw"]
+[ext_resource type="Texture2D" uid="uid://criwgvcol8pgt" path="res://WilAssets/Uncracked Edge Tile.png" id="7_jvc4u"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vs8ys"]
 texture = ExtResource("1_7dapk")
