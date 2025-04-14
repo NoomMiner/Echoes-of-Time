@@ -35,9 +35,17 @@ Include a link to a video showing the system working.
 Grading criteria (10 points): This section will be graded based on the quality of the video and on the evidence that the features are running as expected. Additional criteria are the relevance of the demonstrated functionalities, the correctness of the functionalities, and quality of the developed system from the external point of view (user interface).
 
 # Code quality
-Describe how your team managed code quality. What were your policies, conventions, adopted best practices, etc. to foster high-quality code? 
+### 1\. Version Control
+  We used git for version control with our repository hosted on GitHub
+### 2\. Collaboration
+Each team member worked on a separate branch for new features, fulfilling any open issues
+### 3\. Modular code
+Created scripts that could be used in multiple places throughout the project. For example, interact script used for doors, items, and speaking with NPC’s
+### 4\. Code testing and debugging
+We created test scenes/scripts to verify and isolate specific components before implementing them fully.
+### 5\. Communication
+Communication is key for this project, we have set up our own private team workspace on Discord where we share ideas and help each other implement new features
 
-Grading criteria (4 points): Adequate list of practices that were adopted to improve code quality and clear description with adequate use of language.
 
 # Lessons Learned
 In retrospect, describe what your team learned during this second release and what would you change if you would continue developing the project. 
