@@ -33,10 +33,21 @@ Adjust GoDot node structure and script for compatability:<br>
 **Implemented by**: Tyler<br>
 **Approved by**: Yahir<br>
 
+**Print Screen**: script and node structure
+![Image of script and node sructure](requirementsScreenshots/movementscreenshot.png)
+
 Fixed collision w/ walls:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/46<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler<br>
+
+**Print Screen**: collision polygons<br>
+![Image of collision polygons](requirementsScreenshots/collisionscreenshot.png)
+
+
+**Print Screen**: player in different positions<br>
+![Image of player in game](requirementsScreenshots/eotmovement1.png)
+![Image of player in different position](requirementsScreenshots/eotmovement2.png)
 
 ## Requirement: Make the rooms interactable and responsive to change in them.<br>
 ### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/12<br>
@@ -60,6 +71,14 @@ Added interactions for door and between clock/door:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/53<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler<br>
+**Print Screen**: <br>
+<br>Clock in initial state: <br>
+![Image of clock in initial state](requirementsScreenshots/clockIcon.png)
+<br>After clock is picked up: <br>
+![Image of second game state](requirementsScreenshots/clockIcon2.png)
+<br>After clock is used: <br>
+![Image of third game state](requirementsScreenshots/clockIcon3.png)
+
 
 ## Requirement: Multiple rooms with smooth transitions between them (added cake room) <br>
 ### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/18<br>
@@ -78,18 +97,27 @@ Describe manual testing procedure:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/91<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Wil<br>
+<br>
+**Print Screen**: Since the testing procedures do not affect the player experience, 
+and the testing files are described in the next section, no screenshot is given.<br>
 
 ## Requirement: Clean up Code<br>
 ### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/13<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/47 (add git ignore)<br>
 **Implemented by**: Tyler<br>
 **Approved by**: Yahir <br>
+
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/52 (add git ignore)<br>
 **Implemented by**: Tyler<br>
 **Approved by**: Skyler <br>
+
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/58<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler<br>
+
+<br>
+**Print Screen**: Since the code optimization and refactoring do not affect the player experience, 
+no screenshot is given.<br>
 
 ## Requirement: Stylistic Graphics <br>
 ### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/14<br>
@@ -109,28 +137,39 @@ Added & implemented cake sprites:<br>
 **Implemented by**: Skyler<br>
 **Approved by**: Tyler<br>
 
+**Print Screen**: pictures which contained the above graphics were implemented above.
+
 Added player camera tracking and implemented textures to floor:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/60<br>
 **Implemented by**: Yahir<br>
 **Approved by**: Tyler<br>
+**Print Screen**: <br>
+# TODO
 
 Added doors and skull file assets:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/59<br>
 **Implemented by**: Wil<br>
 **Approved by**: Tyler<br>
+**Print Screen**: <br>
+![Image of skull](../EchoesofTimeGodot/Skull.png)
+![Image of doors](../EchoesofTimeGodot/Doors.png)
 
 Created dragon and wall art:<br>
 **Pull request**: https://github.com/NoomMiner/Echoes-of-Time/pull/90<br>
 **Implemented by**: Wil<br>
 **Approved by**: Wil<br>
+**Print Screen**: <br>
+![Image of dragon sprite, eyes open](../EchoesofTimeGodot/dragon_awake.png)
+![Image of dragon sprite, sleeping](../EchoesofTimeGodot/dragon_sleeping.png)
+![Image of dungeon wall](../EchoesofTimeGodot/dungeon_wall.png)
 
 ## Requirement: Deploy game to itch.io <br>
 ### Issue: https://github.com/NoomMiner/Echoes-of-Time/issues/64<br>
 **Pull request**: N/A <br>
 **Implemented by**: Tyler<br>
 **Approved by**: N/A<br>
-
-Grading criteria (20 points): This section will be evaluated in terms of correctness, completeness, thoroughness, consistency, coherence, adequate use of language, and amount of work put into the implementation. Students can receive different grades depending on their involvement. It is expected that all members contribute with non-trivial implementation. All pull requests should be approved and integrated by the quality assurance person. You should follow an adequate workflow (description of the requirement on the issue tracker, submission of the implemented requirement as a pull request, and review of the pull request by another developer). 
+**Print Screen**: <br>
+#TODO
 
 # Tests
 *You should implement automated tests for the features described in the previous subsection. Provide the following information:
