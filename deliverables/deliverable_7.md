@@ -1,7 +1,5 @@
 # Description
-Provide 1-2 paragraphs to describe your system. This will help us to remember what your system is about. 
-
-Grading criteria (1 point): completeness, language.
+For gamers who enjoy experiencing virtual stories, the adventure game Echoes of Time provides a brief escape from reality into a new virtual world. Echoes of Time has value in its novelty, giving players the opportunity to experience its story for the first time--unlike other open-source adventure games, which many avid adventure gamers have already played before. The current system, which is implemented in GoDot with the graphical user interface and GDScript, includes a moveable player character in a top-down world implemented with tilesets, three interactive objects (a 'weird clock', a door, and a cake), two rooms that the player can move between, and a simple puzzle. With this we're using the stylistic assets developed by our artist, Wil.
 
 # Verification
 Verification aims to ensure that you correctly developed the product. 
