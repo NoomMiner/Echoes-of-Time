@@ -28,6 +28,59 @@ Script: The script should have the tasks that you gave to the user, what data yo
 
 Results: Conduct the user evaluation with at least 3 users. Report the data that you collected.
 
+## Interview 1: 
+### User Test Feedback: Angelina
+
+#### Basic User Info
+- **Name:** Angelina  
+- **Adventure Game Background:**  
+  - Familiar with adventure games; played titles such as:  
+    - *Infinity Nikki*  
+    - *Undertale*  
+    - *The Legend of Zelda: Breath of the Wild*
+
+#### Task 1: Initial Playthrough (No Guidance)
+
+##### General Impressions
+- **Intuitive controls.**  
+- Puzzles felt "involved" and contributed to the vibe.  
+- Concept resembles a "fun indie game."  
+- **Quote:**  
+  > "I wish there was a visible inventory so I could know I had a key on me."
+
+##### Navigation & Controls
+- Navigation described as **intuitive**.  
+- Controls rated **10/10** (*"uses WASD"*).
+
+##### Replayability & Rating
+- **Overall Rating:** **2/10**  
+  - Critiques:  
+    - "Very little replayability."
+
+#### Task 2: Guided Playthrough (Step-by-Step)
+
+##### Title Screen & UI
+- **Title Screen:**  
+  > "Seems like a labor of love kind of thing."  
+- **UI Feedback:**  
+  - Responsive with clear focus indicators.  
+  - Suggestion: Add music to "set the tone."
+
+##### Graphics & Atmosphere
+- Enjoyed the "mystery of the environment."  
+- Noted "implications of lore" behind the setting.
+
+##### Storyline & Concept
+- **Story Rating:** **4/10**  
+  - Feedback: Story is implied but underdeveloped.  
+- **Overall Impression:**  
+  > "A good start and I enjoy the concept."
+
+##### Key Improvement Suggestion
+- **Most Important Fix:**  
+  > "\[Add\] a puzzle" (suggests expanding puzzle mechanics).
+
+
 Reflections: Reflect on what you observed. Some questions that you can explore: What features worked well? What can be changed? How is the learning curve of your system? Did the users perform the tasks as you expected? Did the users’ actions produce the results they expected? What did the users like the most? Is your value proposition accomplished? 
 
 Grading criteria (17 points): adequate script, adequate report of the results, adequate reflection, language.
