@@ -2,15 +2,14 @@
 For gamers who enjoy experiencing virtual stories, the adventure game Echoes of Time provides a brief escape from reality into a new virtual world. Echoes of Time has value in its novelty, giving players the opportunity to experience its story for the first time--unlike other open-source adventure games, which many avid adventure gamers have already played before. The current system, which is implemented in GoDot with the graphical user interface and GDScript, includes a moveable player character in a top-down world implemented with tilesets, three interactive objects (a 'weird clock', a door, and a cake), two rooms that the player can move between, and a simple puzzle. With this we're using the stylistic assets developed by our artist, Wil.
 
 # Verification
-Verification aims to ensure that you correctly developed the product. 
+The testing framework used was GUT (Godot Unit Testing). The test scripts can be viewed [here](../EchoesofTimeGodot/test/unit). <br>
+In addition, since our project is a video game with complex and frequent user interaction, we outlined a process for manual testing [here](../EchoesofTimeGodot/test/manual_tests.md).<br>
+## Example test
+- Class Tested: [player.tscn](../EchoesofTimeGodot/player.tscn)
+- Script: [test_movement.gd](../EchoesofTimeGodot/test/unit/test_movement.gd) <br>
 
-For this deliverable, show an example of a unit test that uses mock objects to isolate the class from the rest of the system. 
-
-Test framework you used to develop your tests (e.g., JUnit, unittest, pytest, etc.)
-Link to your GitHub folder where your automated unit tests are located.
-An example of a test case that makes use of mock objects. Include in your answer a GitHub link to the class being tested and to the test.
-A print screen showing the result of the unit tests execution. 
-Grading criteria (5 points): adequate choice of a test framework, coverage of the tests, quality of the tests, adequate use of Mock objects, and a print screen showing successful test execution.
+This test ensured that the correct velocity was applied to the character depending on the direction pressed.
+![Test Image](./unit_test_output.png)
 
 # Acceptance Test
 An acceptance test is a test that verifies the correct implementation of a feature from the user interface perspective. An acceptance test is a black box test (the system is tested without knowledge about its internal implementation). Provide the following information:
