@@ -119,6 +119,45 @@ Results: Conduct the user evaluation with at least 3 users. Report the data that
 ##### Key Improvement Suggestion
   - Most important improvement to be made is inclusion of more interactions
 
+## Interview 3:
+
+## User Test Feedback: Mason
+
+## Basic User Info
+**Name:** Mason
+**Gaming background:**
+- Has play-tested games before
+- Plays many adventure games such as Skyrim and Oblivion
+
+#### Task 1: Initial Playthrough (No Guidance)
+
+##### General Impressions
+  - Smooth gameplay
+  - Notes how the door is obvious to him, but to others it won't be obvious
+
+##### Navigation & Controls
+  - Player notes that the movement of the player sprite is fast
+  - Player notes how the 'q' button is unintuitive and should be changed
+
+##### Replayability & Rating
+  - **Overall Rating: 4/10**
+    - Wants to have more puzzles and exploration available
+    
+#### Task 2: Guided Playthrough (Step-by-Step)
+
+##### Title Screen & UI
+- Likes the title screen
+
+##### Graphics & Atmosphere
+  - Animated sprites are nice
+  - Suggested more details in the environments 
+
+##### Storyline & Concept
+- **Story Rating:** **4/10**  
+  - Likes concept, shows promise
+
+##### Key Improvement Suggestion
+- Change the text to floating near the bottom of the screen, and change the font to something less generic
 
 Reflections: Reflect on what you observed. Some questions that you can explore: What features worked well? What can be changed? How is the learning curve of your system? Did the users perform the tasks as you expected? Did the users’ actions produce the results they expected? What did the users like the most? Is your value proposition accomplished? 
 
