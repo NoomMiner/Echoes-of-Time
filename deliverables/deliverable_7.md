@@ -12,14 +12,32 @@ This test ensured that the correct velocity was applied to the character dependi
 ![Test Image](./unit_test_output.png)
 
 # Acceptance Test
-An acceptance test is a test that verifies the correct implementation of a feature from the user interface perspective. An acceptance test is a black box test (the system is tested without knowledge about its internal implementation). Provide the following information:
-
-Test framework you used to develop your tests (e.g., Selenium, Katalon Studio, Espresso2, Cucumber, etc.)
-Link to your GitHub folder where your automated acceptance tests are located.
-An example of an acceptance test. Include in your answer a GitHub link to the test and an explanation about the tested feature.
-A print screen/video showing the acceptance test execution. 
-Grading criteria (7 points): adequate choice of a test framework, coverage of the tests, quality of the tests, adequate example of an acceptance test, print screen/video showing successful tests execution.
-
+Automated acceptance testing for video games is extremely uncommon as games by design are dynamic and unpredictable. This is why user testing and QA teams are so common in the game development industry. Because of this issue, we have decided to create a document that outlines a standardized procedure for doing acceptance testing on our game in lieu of having automated acceptance testing. The steps are outlined as follows:
+1. Launch game
+   - ensure correct scene is loaded (i.e. the main menu)
+2. Test Menu buttons
+   - ensure all buttons function as intended
+3. Once first game scene after menu has loaded, use WASD keys to move around
+   - ensure character is responsive
+   - ensure animations play correctly
+   - ensure proper interaction with walls
+4. Move player over to clock object
+   - ensure correct text is shown
+   - ensure object is removed from the game scene on collision with player
+5. Move player over to door
+   - ensure correct text prompt displays
+6. Use item according to text prompt
+   - ensure correct scene is loaded
+7. Navigate player to cake
+   - ensure correct prompt displays
+8. Press key according to prompt
+   - ensure cake sprite and text are updated correctly
+9. Navigate player to door
+   - ensure correct text prompt
+10. Restart game according to text prompt
+    - ensure main menu is loaded
+11. Quit
+    - ensure gracefull exit
 # Validation
 At the beginning of the semester, you talked to the clients/potential users to understand their needs. Now it is time to check if you are on the right track by conducting some user evaluation on the actual system. Include in this deliverable the following information:
 
