@@ -1,0 +1,9 @@
+Interview with Mason Notes.
+
+Initial impressions were generally positive with some critiques. 
+* The movement of the character sprite was fast. 
+* 'q' as a use button is "really unintuitive" and should be swapped to 'space' or 'e' or 'click'. 
+* The door in the demo is not clear to be a door, a lock should be added or the sprite should be changed to represent a door. Using the clock should unlock the door visually. 
+* Change the text to floating near the bottom of the screen, and change the font to something less generic. 
+
+Ultimately, a good proof of concept. 
