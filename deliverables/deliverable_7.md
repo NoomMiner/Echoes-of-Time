@@ -25,10 +25,36 @@ At the beginning of the semester, you talked to the clients/potential users to u
 
 Script: The script should have the tasks that you gave to the user, what data you collected, and the questions you asked. In particular, do not forget to add questions about the users’ general impressions. You can ask open questions (e.g., How would you describe the homepage of our app? How do you compare our system to the competitor X?) or closed questions (On a scale of 1 to 10, how would you rate the layout of our application? On the same scale, how likely would you use the system in its current state?). Take a look at the inception and requirements deliverables to help create the script. Design a script to check if you are achieving your initial goals and if the features are implemented in a satisfactory way. 
 
-Results: Conduct the user evaluation with at least 3 users. Report the data that you collected.
+## Script:
+#### Greetings:
+- Get the user's name.
+- Do you have experience playing adventure games? How do you feel about them?<br>
 
-## Interview 1: 
-### User Test Feedback: Angelina
+*If the user doesn't know the term 'adventure game*: An adventure game is a game that combines story and puzzles.
+
+#### Task 1: ask user to play the game, with no further instructions.
+**Questions**
+- What are your general impressions of the game?
+- Is the navigation smooth and intuitive?
+- Please rate the game on a scale of 1-10.
+
+#### Task 2: guided playthrough
+*Go to title page*
+- How would you describe the title screen? How does it compare to the title pages of other games you have played?<br>
+
+*Go to first room*
+- What do you think about the graphics?
+- Please rate the intuitiveness of the controls on a scale of 1-10.<br>
+
+*Play through second room--guide user to discover 'easter egg' by pressing q over already-eaten cake.*
+- How would you describe the game overall?
+- What do you like most about *Echoes of Time*?
+- Please rate the story line on a scale of 1-10.
+- What do you think is the single most important improvement that could make this game better? 
+
+## Results
+
+### Interview 1: Angelina
 
 #### Basic User Info
 - **Name:** Angelina  
@@ -79,9 +105,9 @@ Results: Conduct the user evaluation with at least 3 users. Report the data that
 - **Most Important Fix:**  
   > "\[Add\] a puzzle" (suggests expanding puzzle mechanics).
 
-## Interview 2:
+<hr/>
 
-### User Test Feedback: Scott
+### Interview 2: Scott
 
 #### Basic User Info
 - **Name:** Scott
@@ -119,9 +145,9 @@ Results: Conduct the user evaluation with at least 3 users. Report the data that
 ##### Key Improvement Suggestion
   - Most important improvement to be made is inclusion of more interactions
 
-## Interview 3:
+<hr/>
 
-## User Test Feedback: Mason
+### Interview 3: Mason
 
 ## Basic User Info
 **Name:** Mason
@@ -159,7 +185,10 @@ Results: Conduct the user evaluation with at least 3 users. Report the data that
 ##### Key Improvement Suggestion
 - Change the text to floating near the bottom of the screen, and change the font to something less generic
 
-Reflections: Reflect on what you observed. Some questions that you can explore: What features worked well? What can be changed? How is the learning curve of your system? Did the users perform the tasks as you expected? Did the users’ actions produce the results they expected? What did the users like the most? Is your value proposition accomplished? 
+<hr/>
 
-Grading criteria (17 points): adequate script, adequate report of the results, adequate reflection, language.
-
+## Reflection:
+What works: the UI is smooth and responsive, with straightforward controls. The learning curve is fairly easy, with users performing the tasks as expected and with the expected results. The main issue with the game is that it needs to be expanded to include more exploration, a concrete story, hazards, and harder puzzles with more environment interaction. For polish, it would also be good to change the interact key from 'q', have the inventory be visible, add music, and implement a more unique font. The implications of lore and the promise of the concept are the strongest aspects of the game so far.<br>
+Overall, it is evident that we did not accomplish our value proposition: to make a fun and unique puzzle game with themes of environmentalism and unforeseen consequences. We finished a 'proof-of-concept' that implements the most fundamental mechanics and UI of a top-down adventure game, but the features that would have made the game truly interesting never reached the final product. For example, a unique story was developed, but we didn't develop enough features to implement it, using placeholder flavour text instead. Likewise, a sprite was made for a dragon (which would have been the primary hazard), but it wasn't integrated with the game itself.
+<br>
+Ultimately, we set out to do too much, and ended up with the bare-bones structure of an adventure game without a story or puzzle that could truly appeal to users. The formal user-evaluations reflected this, as users acknowledged the smooth mechanics that were implemented and the promise of the concept, but were disappointed by the underwhelming story and puzzle.
