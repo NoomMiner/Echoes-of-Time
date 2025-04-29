@@ -1,23 +1,40 @@
 extends GutTest
 
-# initial state
+@test
+func testClock():
 
-# assert
-  # game state is 0
-  # clock sprite is visible
-  # rich text not visible
-  # pressing 'q' does nothing
+  ## Set Up
 
-# move player over clock
+  level = preload("res://node_2d.tscn").instantiate()
+  add_child(level)
+  player = level.get_node("CharacterBody2D")
 
-# assert:
-  # game state is 1
-  # clock sprite is invisible
-  # rich text visible
+  clock = .preload("res://clock.tscn")
+  add_child(clock)
 
-# press 'q'
+  sprite = clock.get_node("AnimatedSprite2D")
+  label = clock.get_node("RichTextLabel")
 
-# assert:
-  # game state is 2
-  # clock sprite invisible
-  # rich text changes
+  ## Check initial state
+    assert_eq(level.state, 0)
+    assert_true(sprite.visible)
+    assert_false(label.visible)
+    
+  # move player over clock
+      player.global_position = clock.global_position
+
+  # Check 'hasClock' state
+    assert_eq(level.state, 1)
+    assert_false(sprite.visible)
+    assert_true(label.visible)
+
+  # simulate pressing 'q'
+    var ev = InputEventKey.new()
+    ev.keycode = KEY_Q
+    ev.pressed = true
+    level._input(ev)
+
+  # check 'hasKey' state
+    assert_eq(level.state, 2)
+    assert_false(sprite.visible)
+    assert_false(label.visible)
